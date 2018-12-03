@@ -1,0 +1,98 @@
+﻿body {
+}
+
+#QuestionContent{
+    margin-left: 8em;
+    margin-right: 8em;
+    color: white;
+}
+
+
+#QuizImage {
+    background: url(/images/Quiz/BackgroundImage.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    height: 75vh;
+}
+
+    #QuizImage:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    p {
+        font-family: Arial;
+        font-size: 20px;
+    }
+
+.QuestionOneDiv {
+    background: rgba(0, 47, 95, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionTwoDiv {
+    background: rgba(0, 121, 52, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionThreeDiv {
+    background: rgba(154, 155, 156, 0.5);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionFourDiv {
+    background: rgba(0, 47, 95, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionFiveDiv {
+    background: rgba(0, 121, 52, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionSixDiv {
+    background: rgba(154, 155, 156, 0.5);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionSevenDiv {
+    background: rgba(0, 47, 95, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionEightDiv {
+    background: rgba(0, 121, 52, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionNineDiv {
+    background: rgba(154, 155, 156, 0.5);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionTenDiv {
+    background: rgba(0, 47, 95, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionElevenDiv {
+    background: rgba(0, 121, 52, 1);
+    height: 250px;
+    width: 250px;
+}
+
+.QuestionTwelveDiv {
+    background: rgba(154, 155, 156, 0.5);
+    height: 250px;
+    width: 250px;
+}

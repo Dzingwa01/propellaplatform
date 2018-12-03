@@ -1,0 +1,222 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.card{
+    height:300px;
+}
+#Innovators {
+    background: url(/images/HomePage/P2.jpg);
+    object-fit:cover;
+    object-position:top;
+    height: 800px;
+    position: relative;
+}
+
+/*.innovators-overlay {
+    background: rgba(198, 12, 48, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}*/
+
+#Partner {
+    background: url(/images/HomePage/P3.jpg);
+    object-fit:cover;
+    object-position:center;
+    height: 800px;
+    position: relative;
+}
+
+/*.partners-overlay {
+    background: rgba(255, 169, 82, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}*/
+
+#SmartCity {
+    background: url(/images/HomePage/P4.jpg);
+    object-fit:cover;
+    object-position:center;
+    height: 800px;
+    position: relative;
+}
+
+/*.smartcity-overlay {
+    background: rgba(252, 212, 80, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}*/
+
+#Diary {
+    background: url('/images/HomePage/P5.jpg');
+    object-fit:cover;
+    object-position:center;
+    background-size: cover;
+    height: 800px;
+    position:relative;
+}
+
+/*.diary-overlay {
+    background: rgba(0,121, 52, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}*/
+
+#Commercial {
+    background: url(/images/HomePage/P6.jpg);
+    object-fit:cover;
+    object-position:center;
+    background-size: cover;
+    height: 800px;
+    position:relative;
+}
+
+/*.commercial-overlay {
+    background: rgba(0,47, 95, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}*/
+
+#About {
+    background: url(/images/HomePage/P7.jpg);
+    object-fit:cover;
+    object-position:center;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+/*.about-overlay {
+    background: rgba(147,80, 158, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}*/
+
+#Idea {
+    background: url(/images/HomePage/WindTurbinePropellerSmall.jpg.jfif);
+    object-fit:cover;
+    object-position:center;
+    height: 800px;
+    position: relative;
+}
+
+/*.Idea-overlay {
+    background: rgba(198, 12, 48, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}*/
+#Programmes{
+    background: url(images/Apply.jpg);
+    object-fit:cover;
+    object-position:center;
+    height: 800px;
+    position: relative;
+}
+
+.programmes-overlay {
+    background: rgba(255, 169, 82, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#Ready {
+    background: url(images/Ideas.jpg);
+    object-fit:cover;
+    object-position:center;
+    height: 800px;
+    position: relative;
+}
+
+.ready-overlay {
+    background: rgba(252, 212, 80, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#ventures {
+    background: url(images/Apply.jpg);
+    object-fit:cover;
+    object-position:bottom;
+    height: 800px;
+    position: relative;
+}
+
+.ventures-overlay {
+    background: rgba(0,121, 52, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#Apply {
+    background: url(images/Apply.jpg);
+    object-fit:cover;
+    object-position:center;
+    height: 800px;
+    position: relative;
+}
+
+.Apply-overlay {
+    background: rgba(0,47, 95, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#funding {
+    background: url(images/Apply.jpg);
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.funding-overlay {
+    background: rgba(147,80, 158, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+

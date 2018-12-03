@@ -1,0 +1,10 @@
+﻿body {   
+}
+
+#stage2 {
+    background-image: url('../../images/action-air-aircraft-442587.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    
+}

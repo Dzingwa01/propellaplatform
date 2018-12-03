@@ -1,0 +1,327 @@
+﻿body {
+    margin-top: 0px;
+}
+
+html {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+#questionOneHeader {
+    margin-top: 170px;
+    font-size: 60px;
+    font-family: DINPro;
+}
+
+#InitialParagraphText {
+    margin-top: 100px;
+}
+
+#primaryOverlay {
+    /*background: rgba(16, 191, 68, 0.3);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.showcase {
+    padding-top: 200px;
+}
+
+.scroll-icon{
+    position: absolute;
+    bottom: 20%;
+    left: 47%;
+    opacity: 0.7;
+}
+/*-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* First Row IND Section */
+#IND-Section {
+    margin-top: 300px;
+}
+
+#INDHeader {
+    margin-top: 320px;
+    margin-left: 300px;
+    align-content: center;
+}
+
+#INDBtn {
+    margin-left: 300px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* First Row ICT Section */
+#ICT-Section {
+    height: 300px;
+}
+
+#ICTHeader {
+    margin-top: 320px;
+    /*margin-left: 10px;*/
+}
+
+#ICTBtn {
+    /*margin-left: 10px;*/
+    margin-left:-10px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Rows */
+#topSection {
+    height: 50vh;
+    background: url('../../images/Innovators/2.1 ICT Idea.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    min-height: 600px;
+    color: #ffffff;
+    position: relative;
+    font-family: Rockwell;
+}
+
+#InitialParagraph {
+    margin-top: 0;
+    /*font-family: DINPro;*/
+    background: #fff;
+    color: #000000;
+    height: 250px;
+}
+
+#IndustrialFirstRow {
+    background: #fff;
+}
+
+#industrialIdeaRow {
+    height: 450px;
+}
+
+#industrialIdeaRowFirstDiv {
+    height: 450px;
+    background: rgba(0, 47, 95, 0.7);
+    background-size: cover;
+    background-position: center;
+}
+
+#industrialIdeaRowSecondDiv {
+    height: 450px;
+    background: #63B1E5;
+    background-size: cover;
+    background-position: center;
+}
+
+#industrialDesignRow {
+    height: 450px;
+}
+
+#industrialDesignRowFirstDiv {
+    height: 450px;
+    background: rgba(0, 47, 95, 0.7);
+    background-size: cover;
+    background-position: center;
+}
+
+#industrialDesignRowSecondDiv {
+    height: 450px;
+    background: #63B1E5;
+    background-size: cover;
+    background-position: center;
+}
+
+#industrialPrototypeRow {
+    height: 450px;
+}
+
+#industrialPrototypeRowFirstDiv {
+    height: 450px;
+    background: rgba(0, 47, 95, 0.7);
+    background-size: cover;
+    background-position: center;
+}
+
+#industrialPrototypeRowSecondDiv {
+    height: 450px;
+    background: #63B1E5;
+    background-size: cover;
+    background-position: center;
+}
+
+#ICTFirstRow {
+    background: rgba(0, 47, 95, 0.7);
+}
+
+#ictIdeaRow {
+    height: 450px;
+}
+
+#ictIdeaRowFirstDiv {
+    height: 450px;
+    background: rgba(0, 47, 95, 0.7);
+    background-size: cover;
+    background-position: center;
+}
+
+#ictIdeaRowSecondDiv {
+    height: 450px;
+    background: #63B1E5;
+    background-size: cover;
+    background-position: center;
+}
+
+#ictWireFrameRowFirstDiv {
+    height: 450px;
+    background: rgba(0, 47, 95, 1);
+    background-size: cover;
+    background-position: center;
+}
+
+#ictWireFrameRowSecondDiv {
+    height: 450px;
+    background: #63B1E5;
+    background-size: cover;
+    background-position: center;
+}
+
+#ictApplicationRowFirstDiv {
+    height: 450px;
+    background: rgba(0, 47, 95, 1);
+    background-size: cover;
+    background-position: center;
+}
+
+#ictApplicationRowSecondDiv {
+    height: 450px;
+    background: #63B1E5;
+    background-size: cover;
+    background-position: center;
+}
+
+#secondSection {
+    margin-top: 0;
+    height: 490px;
+    background: #fff;
+    color: #000000;
+}
+
+#firstRowFirstDiv {
+    /*font-family:DINPro;*/
+}
+
+#firstRowSecondDiv {
+    height: 450px;
+    background: url('../../images/Innovators/2. ICT.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ff2700;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+#firstRowThirdDiv {
+    height: 450px;
+    background: url('../../images/Innovators/1 Industrial.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ff2700;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+#firstRowFirstDiv {
+    margin-top: 80px;
+}
+
+#secondRowSecondDiv {
+    height: 450px;
+    background: url('../../images/Innovators/2.1 ICT Idea.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+#secondRowThirdDiv {
+    height: 450px;
+    background: url('../../images/Innovators/2.2 ICT DEsign.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+#secondRowFourthDiv {
+    height: 450px;
+    background: url('../../images/Innovators/2.3 ICT Prototype.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+#thirdRowSecondDiv {
+    height: 450px;
+    background: url('../../images/Innovators/1.1 Ind Idea (1).jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+#thirdRowThirdDiv {
+    height: 450px;
+    background: url('../../images/Innovators/1.2 Ind Design.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+#thirdRowFourthDiv {
+    height: 450px;
+    background: url('../../images/Innovators/1.3 Ind Prototyype.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+    /*font-family: Rockwell;*/
+}
+
+/*ICT HEADERS AND BUTTONS*/
+#ictIdeaHeader{
+    margin-top: 280px;
+}
+#ictDesignHeader {
+    margin-top: 280px;
+}
+#ictPrototypeHeader {
+    margin-top: 280px;
+}
+
+#industrialIdeaHeader {
+    margin-top: 300px;
+}
+
+#industrialDesignHeader {
+    margin-top: 300px;
+}
+
+#industrialPrototypeHeader {
+    margin-top: 300px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------*/

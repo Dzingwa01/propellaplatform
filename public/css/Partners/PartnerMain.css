@@ -1,0 +1,224 @@
+﻿body {
+    
+}
+
+html{
+    font-family: Arial;
+}
+
+#PartnerTopSection {
+    background: url('/images/Partners/3 Partners.jpg');
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    -webkit-filter: grayscale(100%);
+}
+
+#PartnerTopSectionHeader {
+    margin-top: 250px;
+    font-family: DINPro;
+    font-size: 100px;
+}
+
+#PartnerSecondSection {
+    background: rgba(154, 155, 156, 0.5);
+    height: 600px;
+}
+
+#PartnerSecondSectionRow {
+    margin-top: 20px;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#PartnerSecondSectionRightColFirstRow {
+    height: 200px;
+}
+
+#PartnerSecondSectionRightColSecondRow {
+    height: 200px;
+}
+
+#MaximiseBBBEEDiv {
+    background: rgba(0, 121, 52, 1);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+
+#InvestmentOpportunityDiv {
+    height: 250px;
+    width: 250px;
+    background: rgba(0, 47, 95, 1);
+    background-position: center;
+    background-size: cover;
+}
+
+#MonetizeIPDiv {
+    height: 250px;
+    width: 250px;
+    background: #ffffff;
+    background-position: center;
+    background-size: cover;
+}
+
+#PropellaProjectDiv {
+    height: 250px;
+    width: 250px;
+    background: #ffffff;
+    background-position: center;
+    background-size: cover;
+}
+
+#LetsTalkDiv {
+    background: rgba(0, 121, 52, 1);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+
+#EmptyDiv {
+    height: 250px;
+    width: 250px;
+    background: rgba(0, 47, 95, 1);
+    background-position: center;
+    background-size: cover;
+}
+
+.BoxDivHeader {
+    margin-top: 100px;
+    color: #9A9B9C;
+    font-family: Arial;
+}
+
+#PartnerThirdSection {
+    background: url('/images/Partners/3.1 Maximise BBBEE.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+#PartnerThirdSection:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+#PartnerFourthSection {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#PartnerFifthSection{
+    background-image: url('/images/Partners/3.2 Investor Opp.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+#PartnerFifthSection:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+#PartnerSixthSection{
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#PartnerSeventhSection {
+    background: url('/images/Partners/3.4 Monetise IP.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+#PartnerSeventhSection:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#PartnerEigthSection {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#PartnerNinthSection {
+    background: url('/images/Partners/3.3 Propella Proj.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+    #PartnerNinthSection:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+#PartnerTenthSection {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#PartnerEleventhSection {
+    background: url('/images/Partners/3.5 Talk.jpg');
+    background-position:top;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+#PartnerEleventhSection:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#PartnerTwelvethSection {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.CircleRow {
+    border-radius: 50px;
+}
+
+#BBBEEBtn {
+    background: rgba(0, 121, 52, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#OpportunityBtn {
+    background: rgba(0, 47, 95, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#IPBtn {
+    background: rgba(0, 121, 52, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#ProjectsBtn {
+    background: rgba(0, 47, 95, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#TalkBtn {
+    background: rgba(0, 121, 52, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+.ButtonHeader {
+    margin-left: 2em;
+}
+
+#ContactUsForm {
+    margin-top: 40px;
+}

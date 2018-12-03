@@ -1,0 +1,35 @@
+﻿#ICTCategory{
+    background-image: url('../../images/gif-wallpaper3.gif');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+   
+}
+#INDCategory {
+    background-image: url('../../images/Industrial_Image.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    
+}
+#ICTHeading {
+    font-size: 80px;
+    font-family: Arial;
+    color: #ffffff;
+    background-size: cover;
+    height: 70vh;
+    padding-top: 100px;
+}
+#INDHeading {
+    font-size: 80px;
+    font-family: Arial;
+    color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+}
+#ICTIND {
+    background: rgbA(128, 128, 128, 0.6);
+    background-position: center;
+    background-size: cover;
+}

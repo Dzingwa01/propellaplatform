@@ -1,0 +1,103 @@
+﻿
+#TopImage {
+    background-image: url("/images/Innovators/FutrureMakers/Future.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter:grayscale(100%);
+}
+#TopImage:hover {
+    -webkit-filter:grayscale(0%);
+}
+
+
+#FirstRowFirstImage {
+    background: url("/images/Innovators/FutrureMakers/FutureOne.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 30vh;
+}
+
+#FirstRowSecondImage {
+    background: url("/images/Innovators/FutrureMakers/FutureTwo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+#ThirdRowFirstImage {
+    background: url("/images/Innovators/FutrureMakers/FutureThree.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+#FourthSecondImage {
+    background: url("/images/Innovators/FutrureMakers/FutureFour.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+#FivethFirstImage {
+    background: url("/images/Innovators/FutrureMakers/FutureFive.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+#SixthRowSecondImage {
+    background: url("/images/Innovators/FutrureMakers/futureSix.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+#SeventhFirstImage {
+    background: url("/images/Innovators/FutrureMakers/FutureSeven.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+#EighthRowSecondImage {
+    background: url("/images/Innovators/FutrureMakers/FutureSeven.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+#NinethFirstImage {
+    background: url("/images/Innovators/FutrureMakers/FutureEight.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+#TenthImage {
+    background: url("/images/Innovators/FutrureMakers/FutureTen.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+#TextColumn {
+    height: 200px;
+}
+
+#ImagesColumn {
+    margin-left:5em;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+}
+
+
+#Content {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+#h4 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 24px;
+    color:#222;
+    text-align: center;
+    margin-top: 10px;
+}

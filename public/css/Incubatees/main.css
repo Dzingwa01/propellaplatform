@@ -1,0 +1,28 @@
+﻿body {
+}
+#Incubatee {
+    background: rgbA(128, 128, 128, 0.6);
+    background-position: center;
+    background-size: cover;
+}
+#INCMargin {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+#INCImage {
+    background-image: url('../../images/5 Ventures.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#ICTHead {
+    font-size: 100px;
+    font-family: Arial;
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 350px;
+}
+.card {
+    border-radius: 20px;
+}

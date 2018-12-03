@@ -1,0 +1,23 @@
+﻿
+#Top {
+    background-image: url("/images/Innovators/Business/business.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+#Top:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#colomn {
+    height: 250px;
+}
+
+.Content {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+#sectionBusiness{
+    
+}

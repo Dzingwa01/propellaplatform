@@ -1,0 +1,122 @@
+﻿
+html {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+#TopImage1 {
+    background-image: url("/images/Innovators/Appliaction/Application.jpg");
+    /*background-image: url('../images/innovators/appliaction/application.jpg');*/
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+    #TopImage:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+#PointOneBtn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position:center;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+#PointTwoBtn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position:center;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+#PointThreeBtn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position:center;
+    bottom: 60px;
+    cursor: pointer;
+}
+#PointONEBtn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: center;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+#PointTWOBtn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: center;
+    bottom: 60px;
+    cursor: pointer;
+}
+#PointTHREEBtn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: center;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+#Point1Btn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: center;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+#Point2Btn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: center;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+#Point3Btn {
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: center;
+    bottom: 60px;
+    cursor: pointer;
+}
+#SecondImage {
+    background-image: url("/images/Innovators/Appliaction/FutureFour.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+#SecondImage:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#ThirdImage {
+    background-image: url("/images/Innovators/Appliaction/futureSix.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+#ThirdImage:hover {
+    -webkit-filter: grayscale(0%);
+}
+#section3 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#section2 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#section1 {
+    padding-left: 1em;
+    padding-right: 1em;
+}

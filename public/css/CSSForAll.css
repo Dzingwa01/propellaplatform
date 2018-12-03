@@ -1,0 +1,204 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#Innovators {
+    background: url("/images/HomePage/Innovators.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 73vh;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+}
+#Innovators:hover {
+    -webkit-filter: grayscale(0%);
+}
+#InnovateBtn {
+    border: groove;
+    border-color: white;
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: absolute;
+    right:4px;
+    bottom:5px;
+    cursor: pointer;
+}
+
+#InnovateBtn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    #InnovateBtn:hover {
+        background-color: #000000; /* Black */
+        color: white;
+    }
+
+
+#Partner {
+    background: url('/images/HomePage/2 Partners.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 73vh;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+}
+
+#PartnerBtn {
+    border: groove;
+    border-color: white;
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    cursor: pointer;
+}
+#Partner:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#PartnerBtn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    #PartnerBtn:hover {
+        background-color: #000000; /* Black */
+        color: white;
+    }
+
+#FutureMakers {
+    background: url("/images/HomePage/3 FutureMakers.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 73vh;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+}
+
+#FutureMakers:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+
+#FutureMakersBtn {
+    border: groove;
+    border-color: white;
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+#FutureMakersBtn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    #FutureMakersBtn:hover {
+        background-color: #000000; /* Black */
+        color: white;
+    }
+
+#Industrial {
+    background: url('/images/HomePage/4 Industrial.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 73vh;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+}
+#Industrial:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#IndustrialBtn {
+    border: groove;
+    border-color: white;
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+#IndustrialBtn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    #IndustrialBtn:hover {
+        background-color: #000000;/* Black */
+        color: white;
+    }
+
+#SmartCity {
+    background: url('/images/HomePage/5 Smart City.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 73vh;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+}
+
+    #SmartCity:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+#SmartCityBtn {
+    border: groove;
+    border-color: white;
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+#SmartCityBtn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    #SmartCityBtn:hover {
+        background-color: #000000; /* black */
+        color: white;
+    }
+
+#Apply {
+    background: url(/images/HomePage/ApplyPage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 73vh;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+}
+
+#Apply:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#ApplyBtn {
+    border: groove;
+    border-color: white;
+    background: rgba(88,89,91,0.5);
+    border-radius: 10px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+#ApplyBtn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    #ApplyBtn:hover {
+        background-color: #000000; /* black */
+        color: white;
+    }

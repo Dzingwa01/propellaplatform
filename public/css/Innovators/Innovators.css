@@ -1,0 +1,359 @@
+﻿body {
+    background: white;
+}
+
+html {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+
+#InnovatorsTop1Section {
+    background: url(../../images/Innovators/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#InnovatorsTopSectionHeader {
+    font-size: 150px;
+    /*font-family: DINPro;*/
+    margin-top: 75vh;
+    color: darkslategray;
+}
+
+#InnovatorsSecondSection {
+    background: rgba(154, 155, 156, 0.5);
+    /*background: #4D4F53;*/
+    background-position: center;
+    background-size: cover;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.second-section-paragraph {
+    font-size: 16px;
+}
+
+
+#bntInnovatorOne {
+    width: 320px;
+    height: 130px;
+    background-color: rgba(0, 121, 52, 1);
+}
+
+#bntInnovatorTwo {
+    width: 320px;
+    height: 130px;
+    background-color: rgba(0, 47, 95, 1);
+}
+
+#bntInnovatorThree {
+    width: 320px;
+    height: 130px;
+    background-color: rgba(0, 47, 95, 1);
+}
+
+#bntInnovatorFour {
+    width: 320px;
+    height: 130px;
+}
+
+#bntInnovatorFive {
+    width: 320px;
+    height: 130px;
+}
+
+#bntInnovatorSix {
+    width: 320px;
+    height: 130px;
+    background-color: rgba(0, 121, 52, 1);
+}
+
+
+#bntInnovator1 {
+    width: 430px;
+    height: 250px;
+    background-color: rgba(0, 47, 95, 1);
+}
+
+#bntInnovatorTwwo {
+    width: 430px;
+    height: 250px;
+    color: black;
+}
+
+#bntInnovator3 {
+    width: 430px;
+    height: 250px;
+    background-color: rgba(0, 121, 52, 1);
+}
+
+#bntInnovator4 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 47, 95, 1);
+}
+
+#bntInnovator5 {
+    width: 250px;
+    height: 250px;
+}
+
+#bntInnovator6 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 121, 52, 1);
+}
+
+#bntInnovator7 {
+    width: 250px;
+    height: 250px;
+}
+
+#bntInnovator8 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 47, 95, 1);
+}
+
+#bntInnovator9 {
+    width: 250px;
+    height: 250px;
+}
+
+#bntInnovator10 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 121, 52, 1);
+}
+
+#bntInnovator11 {
+    width: 250px;
+    height: 250px;
+}
+
+#bntInnovator:hover {
+    background: whitesmoke;
+    color: black;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+    font: Sedgwick Ave;
+}
+
+#bntInnovator1:hover {
+    color: red;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovatorTwwo:hover {
+    color: red;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator3:hover {
+    color: red;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator4:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator5:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator6:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator7:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator8:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator9:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator10:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#bntInnovator11:hover {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+/*#InnovatorsThirdSection {
+    background: url(../../images/Innovators/cubes-4656-1920x1200.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}*/
+/*#InnovatorsThirdSectionHeader {
+    font-size: 65px;
+    font-family: DINPro;
+    margin-top: 20vh;
+    color: #ffffff;
+}*/
+.flip-box-button {
+    background-color: whitesmoke;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 55px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+/*BUTTONS*/
+.flip-box-button {
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(.92,-0.19,.3,1.13);
+}
+
+    .flip-box-button:hover {
+        background: green;
+        color: #fff;
+        font-size: 11px;
+        letter-spacing: 6px;
+    }
+
+#InnovatorsSixthSection {
+    background: url(../../images/stge0.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+    #InnovatorsSixthSection:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+#InnovatorsSixthSectionHeader {
+    font-size: 65px;
+    font-family: DINPro;
+    margin-top: 20vh;
+    color: #ffffff;
+}
+
+#InnovatorSeventhSection {
+    background: rgba(154, 155, 156, 0.5);
+    /*background: #4D4F53;*/
+    background-position: center;
+    background-size: cover;
+}
+
+    #InnovatorSeventhSection:hover {
+        background: #f5f5f5;
+        color: #fff;
+        font-size: 11px;
+        letter-spacing: 6px;
+        font-style: oblique;
+    }
+
+#Innovator8Section {
+    background: #fff;
+    height: 300px;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+#Innovator9Section {
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+#Innovator8Section:hover {
+    background: #f5f5f5;
+}
+
+#Innovator9Section:hover {
+    background: #f5f5f5;
+}
+
+#bntInnovator2:hover {
+    background: rgba(0, 47, 95, 0.7);
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-style: oblique;
+}
+
+#Innovator10Section {
+    background: url('../../images/Innovators/2.7 Funding Options.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+
+    #Innovator10Section:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+
+#Innovators10SectionHeader {
+    font-size: 65px;
+    font-family: DINPro;
+    margin-top: 20vh;
+    color: white;
+}
+
+#InnovatorsCol1 {
+    height: 450px;
+}
+
+#InnovatorsCol2 {
+    height: 450px;
+}
+
+#InnovatorsCol3 {
+    height: 550px;
+}
+
+#Innovator11Section {
+    height: 450px;
+    padding-left: 8em;
+    padding-right: 8em;
+}

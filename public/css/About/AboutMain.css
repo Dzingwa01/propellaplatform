@@ -1,0 +1,798 @@
+﻿body {
+}
+
+#AboutTopSection {
+    /*background: url('../../images/About/10LP About Us.jpg');*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    height: 100vh;
+    margin-top: 0px;
+}
+
+#DivThatStoresAllOtherDivs {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#AboutTopSectionHeader {
+    font-size: 72px;
+    font-family: DINPro;
+    margin-top: 50vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+#AboutSecondSection {
+    background: rgba(154, 155, 156, 0.5);
+    /*background: #4D4F53;*/
+    background-position: center;
+    background-size: cover;
+}
+
+#AboutSecondSectionContent {
+
+}
+
+second-section-paragraph {
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: DINPro;
+    font-size: 40px;
+}
+
+#AboutSecondSectionHeaderOne {
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: DINPro;
+    color: rgba(0, 47, 95, 1);
+}
+
+#AboutSecondSectionHeaderTwo {
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: DINPro;
+    color: rgba(0, 47, 95, 1);
+}
+
+#AboutSecondSectionHeaderThree {
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: DINPro;
+    color: rgba(0, 47, 95, 1);
+}
+
+.second-section-paragraph {
+    color: rgba(0, 47, 95, 1);
+    font-family: DINPro;
+    font-size: 20px;
+}
+
+#AboutThirdSection {
+    /*background: url('../..');*/
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+}
+
+#AboutThirdSection:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#AboutFourthSection {
+    /*background: rgba(154, 155, 156, 0.5);*/
+    /*height: 75vh;*/
+    margin-top: 60px;
+}
+
+#AboutFourthSectionBoxDivRowOneColOne {
+    height: 300px;
+    width: 100%;
+    background: rgba(0, 121, 52, 1);
+    /*background-position: center;*/
+    /*background-size: cover;*/
+}
+
+#AboutFourthSectionBoxDivRowOneColTwo {
+    height: 300px;
+    width: 100%;
+    background: rgba(0, 47, 95, 1);
+    /*background-position: center;*/
+    /*background-size: cover;*/
+}
+
+#AboutFourthSectionBoxDivRowOneColThree {
+    height: 300px;
+    width: 100%;
+    background: #ffffff;
+    background-position: center;
+    background-size: cover;
+}
+
+#AboutFourthSectionBoxDivRowTwoColOne {
+    height: 300px;
+    width: 100%;
+    background: #ffffff;
+    background-position: center;
+    background-size: cover;
+}
+
+#AboutFourthSectionBoxDivRowTwoColTwo {
+    height: 300px;
+    width: 100%;
+    background: rgba(0, 121, 52, 1);
+    background-position: center;
+    background-size: cover;
+}
+
+#AboutFourthSectionBoxDivRowTwoColThree {
+    height: 300px;
+    width: 100%;
+    background: rgba(0, 47, 95, 1);
+    background-position: center;
+    background-size: cover;
+}
+
+#AboutFifthSection {
+    height: 600px;
+}
+
+#AboutFifthSectionFirstImage {
+    background: url('/images/About/OUR PEOPLE.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+#AboutFifthSectionFirstImage:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#AboutFifthSectionSecondImage {
+    background: url('/images/About/OUR PARTNERS.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    -webkit-filter: grayscale(100%);
+}
+
+#AboutFifthSectionSecondImage:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#AboutFifthSectionFirstCol {
+    margin-top: 250px;
+}
+
+#WhatWeDoSection {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#OurPeopleSection {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#OurPartnersSection {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#AboutPageBuilding {
+    height: 75vh;
+    background: url(/images/About/PropellaBuildingOutside.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+}
+
+#AboutPageBuilding:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#PropellaBtn {
+    background: rgba(0, 121, 52, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+.ButtonHeader {
+    margin-left: 2em;
+}
+
+#LocationBtn {
+    background: rgba(0, 47, 95, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#PreIncubationBtn {
+    background: rgba(154, 155, 156, 0.5);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#IncubationBtn {
+    background: rgba(0, 47, 95, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#AccelerationBtn {
+    background: rgba(0, 121, 52, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#BoardnGuestsBtn {
+    background: rgba(0, 121, 52, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#ManagementBtn {
+    background: rgba(154, 155, 156, 0.5);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#StaffBtn {
+    background: rgba(0, 47, 95, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#MentorsBtn {
+    background: rgba(154, 155, 156, 0.5);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#ShareholdersBtn {
+    background: rgba(0, 121, 52, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#FoundingPartnersBtn {
+    background: rgba(154, 155, 156, 0.5);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+#FundingPartnersBtn {
+    background: rgba(0, 47, 95, 1);
+    color: #ffffff;
+    font-family: DINPro;
+}
+
+.BoxDivHeader {
+
+    line-height: 250px;
+    color: #9A9B9C;
+    font-family: DINPro;
+}
+.card-title{
+    font-weight:bolder!important;
+}
+
+#Details {
+    margin-top: 290px;
+}
+
+#AnitaImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/AnitaSideTest.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    line-height: 0px;
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #AnitaImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#GrantImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/GrantSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #GrantImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#ErrolImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/ErrolSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #ErrolImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#MaraImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/MaraSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #MaraImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#ApheleleImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/ApheleleSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #ApheleleImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#SinazoImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/SinazoSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #SinazoImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#GwenImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/GwenSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #GwenImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#DarylImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/DarrylSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #DarylImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#LindaImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/LindaSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #LindaImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#JaneImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #JaneImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#IanImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #IanImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#AndrewImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #AndrewImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+.carousel .carousel-item{
+    height: 200px;
+    width:200px;
+}
+
+#JohanImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #JohanImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#WayneImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/WayneSide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #WayneImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#RicardoImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #RicardoImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#GregImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #GregImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#StuartImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #StuartImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#PortiaImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #PortiaImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#NqobileImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/NoProfilePic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #NqobileImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#BarryImage {
+    height: 400px;
+    background: border-box url('/images/ProfilePictures/Propella Staff/BarrySide.JPG');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%);
+    color: transparent;
+    font-size: 20px;
+    font-family: DINPro;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+    #BarryImage:hover {
+        -webkit-filter: grayscale(0%);
+        line-height: 20px;
+        color: black;
+    }
+
+#EngeliLogo {
+    background: url(/images/About/LOGOS/ENGELI.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#InnovoleLogo {
+    background: url(/images/About/LOGOS/INNOVOLVE.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#IDCLogo {
+    background: url(/images/About/LOGOS/IDC.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#NMULogo {
+    background: url('/images/About/LOGOS/NELDON MANDELA.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#BCXLogo {
+    background: url('/images/About/LOGOS/BCX WHITE.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#IsuzuLogo {
+    background: url(/images/About/CompanyLogos/ISUZU.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#BASFLogo {
+    background: url(/images/About/LOGOS/BASF.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#AlgoaFMLogo {
+    background: url('/images/About/LOGOS/ALGOA FM.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+#BoomTownLogo {
+    background: url(/images/About/CompanyLogos/BoomTown.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.CircleRow {
+    border-radius: 50px;
+}
+
+
