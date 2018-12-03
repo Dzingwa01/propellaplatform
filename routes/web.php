@@ -11,6 +11,7 @@
 |
 */
 
+Route::get('/Home/Incubatees','HomeController@getIncubatees');
 Route::get('/', function () {
 //    dd("Hello");
     return view('welcome');
@@ -40,9 +41,7 @@ Route::get('/Home/Programs',function(){
 Route::get('/Home/SmartCity',function(){
     return view('home.smart_city');
 });
-Route::get('/Home/Founders',function(){
-    return view('home.founders');
-});
+Route::get('/Home/Founders/{incubatee}','HomeController@getFounder');
 Route::get('/Home/Funding',function(){
     return view('home.funding');
 });
@@ -58,6 +57,8 @@ Route::get('/Home/Opportunity',function(){
 Route::get('/Home/SmartCity',function(){
     return view('home.smart_city');
 });
+
+Route::get('/Incubatees/List','HomeController@getIncubatees');
 
 Route::get('/Home/FreeCourse',function(){
     return view('home.smart_city');

@@ -83,23 +83,23 @@
     <div class="row" id="WhatWeDoSection">
         <div class="col m4">
             <div class="row CircleRow" id="PropellaBtn">
-                <h4 class="ButtonHeader">Propella</h4>
+                <h5 class="ButtonHeader">Propella</h5>
             </div>
             <br/>
             <div class="row CircleRow" id="LocationBtn">
-                <h4 class="ButtonHeader">Location &amp; infrastructure</h4>
+                <h5 class="ButtonHeader">Location &amp; infrastructure</h5>
             </div>
             <br/>
             <div class="row CircleRow" id="PreIncubationBtn">
-                <h4 class="ButtonHeader">Pre-incubation Support</h4>
+                <h5 class="ButtonHeader">Pre-incubation Support</h5>
             </div>
             <br/>
             <div class="row CircleRow" id="IncubationBtn">
-                <h4 class="ButtonHeader">Incubation Services</h4>
+                <h5 class="ButtonHeader">Incubation Services</h5>
             </div>
             <br/>
             <div class="row CircleRow" id="AccelerationBtn">
-                <h4 class="ButtonHeader">Acceleration</h4>
+                <h5 class="ButtonHeader">Acceleration</h5>
             </div>
         </div>
 
@@ -489,110 +489,132 @@
 
 
         <div id="AboutFifthSectionManagementInfo" class="col m8" hidden>
-            <div class="card">
-                <div class="card-title">
-                    <h5>Management</h5>
+            <h5 style="text-align: center">Management</h5>
+            <div class="row">
+            <div class="card col m4">
+                <div class="card-image">
+                    <img src="/images/ProfilePictures/Propella Staff/AnitaSideTest.jpg">
                 </div>
                 <div class="card-content">
-            <div class="carousel">
-                <a class="carousel-item" href="#one11!">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="/images/ProfilePictures/Propella Staff/AnitaSideTest.jpg">
-                        </div>
-                        <div class="card-content">
-                            <p>Anita Palmer</p>
-                            <p>Business Incubator Manager</p>
-                        </div>
-                    </div>
-                </a>
-
-                <a class="carousel-item" href="#three11!">
-
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="/images/ProfilePictures/Propella Staff/GrantSide.JPG">
-                        </div>
-                        <div class="card-content">
-                            <p>Grant Minnie</p>
-                            <p>Senior Industrial Manager</p>
-                        </div>
-                    </div>
-
-                </a>
-
-                <a class="carousel-item" href="#five11!">
-
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="/images/ProfilePictures/Propella Staff/ErrolSide.JPG">
-                        </div>
-                        <div class="card-content">
-                            <p>Errol Wills</p>
-                            <p>Senior ICT Manager</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    <p>Anita Palmer</p>
+                    <p>Business Incubator Manager</p>
                 </div>
             </div>
+            <div class="card col m4">
+                <div class="card-image">
+                    <img src="/images/ProfilePictures/Propella Staff/GrantSide.JPG">
+                </div>
+                <div class="card-content">
+                    <p>Grant Minnie</p>
+                    <p>Senior Industrial Manager</p>
+                </div>
+            </div>
+            <div class="card col m4">
+                <div class="card-image">
+                    <img src="/images/ProfilePictures/Propella Staff/ErrolSide.JPG">
+                </div>
+                <div class="card-content">
+                    <p>Errol Wills</p>
+                    <p>Senior ICT Manager</p>
+                </div>
+            </div>
+            </div>
+
         </div>
 
-        <div id="AboutFifthSectionStaffInfo" class="col m7" hidden>
+        <div id="AboutFifthSectionStaffInfo" class="col m8" hidden>
             <div class="row">
-                <div class="col m3 hoverable" id="MaraImage">
-                    <div id="Details">
+                <div class="card col m4">
+                    <div class="card-image">
+                        <img src="/images/ProfilePictures/Propella Staff/MaraSide.JPG">
+                    </div>
+                    <div class="card-content">
                         <p>Mara Jacobs</p>
                         <p>Administrator</p>
                     </div>
                 </div>
-                <div class="col m3 hoverable" id="ApheleleImage">
-                    <div id="Details">
+                <div class="card col m4">
+                    <div class="card-image">
+                        <img src="/images/ProfilePictures/Propella Staff/ApheleleSide.JPG">
+                    </div>
+                    <div class="card-content">
                         <p>Aphelele Jonas</p>
                         <p>Marketing &amp; Public Relations</p>
                     </div>
                 </div>
-                <div class="col m3 hoverable" id="SinazoImage">
-                    <div id="Details">
+                <div class="card col m4">
+                    <div class="card-image">
+                        <img src="/images/ProfilePictures/Propella Staff/SinazoSide.JPG">
+                    </div>
+                    <div class="card-content">
                         <p>Sinazo Jack</p>
                         <p>Reception</p>
                     </div>
                 </div>
-                <div class="col m3 hoverable" id="GwenImage">
-                    <div id="Details">
-                        <ul>
-                            <li><p>Gwen Assem</p></li>
-                            <li><p>Facilities</p></li>
-                        </ul>
+            </div>
+            <div class="row">
+                <div class="card col m4">
+                    <div class="card-image">
+                        <img src="/images/ProfilePictures/Propella Staff/GwenSide.JPG">
+                    </div>
+                    <div class="card-content">
+                        <p>Gwen Assem</p>
+                        <p>Facilities</p>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <div id="AboutFifthSectionMentorsInfo" class="col m7" hidden>
+        <div id="AboutFifthSectionMentorsInfo" class="col m8" hidden>
             <div class="row">
-                <div class="col m3 hoverable" id="DarylImage">
-                    <div id="Details">
+                <div class="card col m4">
+                    <div class="card-image">
+                        <img src="/images/ProfilePictures/Propella Staff/DarrylSide.JPG">
+                    </div>
+                    <div class="card-content">
                         <p>Daryl McWilliams</p>
                     </div>
                 </div>
-                <div class="col m3 hoverable" id="LindaImage">
-                    <div id="Details">
+                <div class="card col m4">
+                    <div class="card-image">
+                        <img src="/images/ProfilePictures/Propella Staff/LindaSide.JPG">
+                    </div>
+                    <div class="card-content">
                         <p>Linda Lawrie</p>
                     </div>
                 </div>
-                <div class="col m3 hoverable" id="JaneImage">
-                    <div id="Details">
+                <div class="card col m4">
+                    <div class="card-image">
+                        <img src="/images/ProfilePictures/NoProfilePic.jpg">
+                    </div>
+                    <div class="card-content">
                         <p>Jane Stevenson</p>
                     </div>
                 </div>
-                <div class="col m3 hoverable" id="IanImage">
-                    <div id="Details">
-                        <p>Ian Vermooten</p>
-                    </div>
-                </div>
             </div>
+            {{--<div class="row">--}}
+                {{--<div class="col m3 hoverable" id="DarylImage">--}}
+                    {{--<div id="Details">--}}
+                        {{--<p>Daryl McWilliams</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col m3 hoverable" id="LindaImage">--}}
+                    {{--<div id="Details">--}}
+                        {{--<p>Linda Lawrie</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col m3 hoverable" id="JaneImage">--}}
+                    {{--<div id="Details">--}}
+                        {{--<p>Jane Stevenson</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col m3 hoverable" id="IanImage">--}}
+                    {{--<div id="Details">--}}
+                        {{--<p>Ian Vermooten</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
     </div>
 
@@ -603,55 +625,49 @@
     <div id="OurPartnersSection" class="row left-align">
         <div class="col m4">
             <div class="row CircleRow" id="ShareholdersBtn">
-                <h4 class="ButtonHeader">Shareholders</h4>
+                <h5 class="ButtonHeader">Shareholders</h5>
             </div>
             <br/>
             <div class="row CircleRow" id="FoundingPartnersBtn">
-                <h4 class="ButtonHeader">Founding Partners</h4>
+                <h5 class="ButtonHeader">Founding Partners</h5>
             </div>
             <br/>
             <div class="row CircleRow" id="FundingPartnersBtn">
-                <h4 class="ButtonHeader">Funding Partners</h4>
+                <h5 class="ButtonHeader">Funding Partners</h5>
             </div>
         </div>
 
-        <div class="col m1">
 
-        </div>
-
-
-        <div id="AboutFifthSectionShareholdersInfo" class="col m7" hidden>
+        <div id="AboutFifthSectionShareholdersInfo" class="col m8" >
             <div class="row">
-                <div class="col m5" id="EngeliLogo">
+                <div class="col m6" id="EngeliLogo">
                     <a href="www.engeli.co.za"></a>
                 </div>
-                <div class="col m2">
 
-                </div>
-                <div class="col m5" id="InnovoleLogo">
+                <div class="col m6" id="InnovoleLogo">
                     <a href="http://innovolve.co.za/"></a>
                 </div>
             </div>
         </div>
 
 
-        <div id="AboutFifthSectionFoundingPartnersInfo" class="col m7" hidden>
+        <div id="AboutFifthSectionFoundingPartnersInfo" class="col m8" hidden>
             <div class="row">
                 <div class="row">
-                    <div class="col m5" id="EngeliLogo">
+                    <div class="col m6" id="EngeliLogo">
                         <a href="www.engeli.co.za"></a>
                     </div>
-                    <div class="col m2"></div>
-                    <div class="col m5" id="InnovoleLogo">
+
+                    <div class="col m6" id="InnovoleLogo">
                         <a href="http://innovolve.co.za/"></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="row col m5" id="IDCLogo">
+                    <div class="row col m6" id="IDCLogo">
                         <a href="https://www.idc.co.za/"></a>
                     </div>
-                    <div class="col m2"></div>
-                    <div class="col m5" id="NMULogo">
+                    {{--<div class="col m2"></div>--}}
+                    <div class="col m6" id="NMULogo">
                         <a href="https://www.mandela.ac.za"></a>
                     </div>
                 </div>
@@ -660,33 +676,29 @@
         </div>
 
 
-        <div id="AboutFifthSectionFundingPartnersInfo" class="col m7" hidden>
+        <div id="AboutFifthSectionFundingPartnersInfo" class="col m8" hidden>
             <div class="row">
-                <div class="col m3" id="BCXLogo">
+                <div class="col m6" id="BCXLogo">
                     <a href="https://www.bcx.co.za/"></a>
                 </div>
-                <div class="col m1">
-                </div>
-                <div class="col m3" id="IsuzuLogo">
+
+                <div class="col m6" id="IsuzuLogo">
                     <a href="https://www.isuzu.co.za/"></a>
-                </div>
-                <div class="col m1">
-                </div>
-                <div class="col m3" id="BASFLogo">
-                    <a href="https://www.basf.com/za/en.html/"></a>
                 </div>
             </div>
             <div class="row">
-                <div class="col m3" id="AlgoaFMLogo">
+                <div class="col m6" id="AlgoaFMLogo">
                     <a href="https://www.algoafm.co.za/"></a>
                 </div>
-                <div class="col m1">
-                </div>
-                <div class="col m3" id="BoomTownLogo">
+
+                <div class="col m6" id="BoomTownLogo">
                     <a href="https://www.boomtown.agency/"></a>
                 </div>
-                <div class="col m1"></div>
-                <div class="col m3"></div>
+            </div>
+            <div class="row">
+                <div class="col m6" id="BASFLogo">
+                    <a href="https://www.basf.com/za/en.html/"></a>
+                </div>
             </div>
         </div>
     </div>
