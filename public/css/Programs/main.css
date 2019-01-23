@@ -36,12 +36,12 @@
 }
 
 #ProgramsHeader {
-    font-size: 100px;
+    font-size: 80px;
     font-family: Arial;
     color: white;
     background-size: cover;
     height: 100vh;
-    padding-top: 350px;
+    padding-top: 360px;
     
 }
 

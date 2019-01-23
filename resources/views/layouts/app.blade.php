@@ -25,6 +25,14 @@
 
 </head>
 <body>
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="{{url('login')}}">Login</a></li>
+    <li><a href="{{url('register')}}">Register</a></li>
+</ul>
+<ul id="dropdown2" class="dropdown-content">
+    <li><a href="{{url('login')}}">Login</a></li>
+    <li><a href="{{url('register')}}">Register</a></li>
+</ul>
     <div id="app">
         <div class="navbar-fixed">
             <nav class="white">
@@ -40,6 +48,8 @@
                         <li><a href="/Home/Categories"><i class="material-icons left">people</i>Current Ventures</a></li>
                         <li><a href="/Home/Programs"><i class="material-icons left">find_in_page</i>Programs </a></li>
                         <li><a href="/Home/SmartCity"><i class="material-icons left">domain</i>Smart City</a></li>
+                        <li><a class="dropdown-trigger-cus" href="#!" data-target="dropdown2">Account<i class="material-icons right">arrow_drop_down</i></a></li>
+
                     </ul>
 
                 </div>
@@ -63,9 +73,20 @@
           @yield('content')
       </div>
     </div>
-    <script src="/js/materialize.js"></script>
-    <script src="/js/site.js"></script>
-    <script src="/js/init.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+<script>
+    $(document).ready(function () {
+        M.AutoInit();
+        $('.dropdown-trigger-cus').dropdown();
+        $('.dropdown-trigger-c').dropdown();
+        $('select').formSelect();
+
+    });
+</script>
 </body>
 </html>

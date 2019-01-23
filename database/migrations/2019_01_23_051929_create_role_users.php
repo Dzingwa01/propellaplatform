@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class ModifyIncubatees extends Migration
+class CreateRoleUsers extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,15 @@ class ModifyIncubatees extends Migration
      */
     public function up()
     {
-        Schema::table('incubatees', function (Blueprint $table) {
+        Schema::create('role_users', function (Blueprint $table) {
             //
-            $table->string('business_information')->nullable();
-            $table->string('linked_in')->nullable();
-            $table->string('company_name')->nullable();
-            $table->string('ownership')->nullable();
+            $table->engine = 'InnoDB';
+            $table->uuid('user_id');
+            $table->uuid('role_id');
+            $table->timestamps();
+            $table->softDeletes();
+
+            $table->unique(['user_id','role_id']);
         });
     }
 
@@ -29,7 +32,7 @@ class ModifyIncubatees extends Migration
      */
     public function down()
     {
-        Schema::table('incubatees', function (Blueprint $table) {
+        Schema::table('role_users', function (Blueprint $table) {
             //
         });
     }

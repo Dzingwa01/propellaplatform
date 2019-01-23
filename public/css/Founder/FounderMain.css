@@ -1,0 +1,160 @@
+
+html{
+    font-family: Arial;
+    font-size: 16px
+}
+
+#FounderTopSection {
+    background: #ffffff;
+    height: 300px;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#FounderTopSectionImage {
+    /*background: url('/images/Founder/EATABLES.jpg');*/
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    margin-top: 10px;
+    padding-right:2px;
+    -webkit-filter:grayscale(100%);
+    /*margin-left: 25px;*/
+}
+
+#FounderTopSectionImage:hover {
+    -webkit-filter:grayscale(0%);
+}
+
+#vertical-line{
+    /*background: #808080;*/
+    height: 50px;
+    width: 20px;
+    margin-top: 8em;
+}
+
+#FounderTopSectionName {
+    /*font-family: DINPro;*/
+    margin-top: 40px;
+    /*margin-left: 25px;*/
+    border-left: groove;
+    padding-left:60px;
+    font-family: Arial;
+}
+
+#FounderTopSectionElevatorPitch {
+    /*border: groove;*/
+    margin-top: 3em;
+    border-left: groove;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: Arial;
+}
+
+
+#FounderSecondSection {
+    background: rgba(0, 47, 95, 1);
+    height: 400px;
+}
+
+#FounderSecondSectionContent {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#FounderProfilePic {
+    background: url('/images/Founder/ProfilePic.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: 5px;
+    -webkit-filter:grayscale(100%);
+}
+
+#FounderProfilePic:hover {
+    -webkit-filter:grayscale(0%);
+}
+
+#vertical-line-content {
+    height: 50px;
+    width: 20px;
+    margin-top: 8em;
+}
+
+#FounderAboutMe {
+    /*border: groove;*/
+    height: 366px;
+    color: #ffffff;
+    font-family: Arial;
+    /*glyph-orientation-horizontal: inherit;
+    outline-color: darkgray;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: solid;
+}
+
+#FounderDetails {
+    height: 350px;
+    color: #ffffff;
+    font-family: DINPro;
+    border-left: solid;
+    padding-left: 20px;
+    font-family: Arial;
+}
+#FacebookIcon {
+    font-size: 15px;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    margin-right: 40px;
+    padding-left: 30px;
+}
+
+#FacebookIconBusiness {
+    font-size: 15px;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    margin-right: 90px;
+    padding-left: 60px;
+    /*padding-left: 30px;*/
+}
+
+#CompanyVideoRow{
+    height:200px;
+}
+
+#FounderThirdSection {
+    background: #ffffff;
+    height: 400px;
+}
+
+#VentureProfileRow {
+    border-right: groove;
+    height: 300px;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-right: 25px;
+}
+
+#CompanyDetailsRow {
+    /*border: groove;*/
+    height: 200px;
+}
+
+#FounderFourthSection {
+    background: #808080;
+    height: 500px;
+}
+
+#TestimonialsRow {
+    /*margin-top: 100px;*/
+    border-right: groove;
+}
+.carousel .carousel-item{
+    width:300px;
+}
+.fixed-action-btn{
+    /*position:relative;*/
+}

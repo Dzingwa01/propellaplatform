@@ -11,24 +11,20 @@
 <div class="section left-align" id="PartnerSecondSection">
     <div class="row" id="PartnerSecondSectionRow">
         <div class="col m4" id="PartnerSecondSectionLeftCol">
-            <p>
+            <p style="text-align: justify">
                 Providing support for innovators with disruptive technology which
                 gives manufacturing in the Eastern Cape and the rest of South Africa a
                 competitive global advantage.
             </p>
             <ul>
                 <li>
-                    <p>
-                        Propella is a partnership between the Nelson Mandela Metropolitan
-                        University, the Industrial Development Corporation and the private sector.
-                    </p>
+                    Propella is a partnership between the Nelson Mandela Metropolitan
+                    University, the Industrial Development Corporation and the private sector.
                 </li>
                 <li>
-                    <p>
-                        Our main areas of focus are on renewable energy generation, energy
-                        efficiency and related technologies, advanced manufacturing and supply
-                        chain optimisation.
-                    </p>
+                    Our main areas of focus are on renewable energy generation, energy
+                    efficiency and related technologies, advanced manufacturing and supply
+                    chain optimisation.
                 </li>
             </ul>
 
@@ -36,19 +32,19 @@
             <p>A business or a business idea has been tested in the market and is:</p>
             <ul>
                 <li>
-                    <p>Disruptive (Smart, out of the ordinary thinking, unique, innovative)</p>
+                    Disruptive (Smart, out of the ordinary thinking, unique, innovative)
                 </li>
                 <li>
-                    <p>Will help a smart city to improve the lives of its residents </p>
+                    Will help a smart city to improve the lives of its residents
                 </li>
                 <li>
-                    <p>Scalable</p>
+                    Scalable
                 </li>
                 <li>
-                    <p>Sustainable</p>
+                    Sustainable
                 </li>
                 <li>
-                    <p>Creates jobs or has the ability to create jobs</p>
+                    Creates jobs or has the ability to create jobs
                 </li>
             </ul>
         </div>
@@ -90,19 +86,19 @@
     <div class="row">
         <div class="col m4">
             <div class="row CircleRow" id="BBBEEBtn">
-                <h4 class="ButtonHeader">Maximise your BBBEE</h4>
+                <h5 class="ButtonHeader">Maximise your BBBEE</h5>
             </div>
             <div class="row CircleRow grey lighten-2"  id="OpportunityBtn">
-                <h4 class="ButtonHeader">Investment Opportunity</h4>
+                <h5 class="ButtonHeader">Investment Opportunity</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="IPBtn">
-                <h4 class="ButtonHeader">Monetize your Intellectual Property</h4>
+                <h5 class="ButtonHeader">Monetize your Intellectual Property</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="ProjectsBtn">
-                <h4 class="ButtonHeader">Propella Projects</h4>
+                <h5 class="ButtonHeader">Propella Projects</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="TalkBtn">
-                <h4 class="ButtonHeader">Let's Talk</h4>
+                <h5 class="ButtonHeader">Let's Talk</h5>
             </div>
         </div>
         <div class="col m1"></div>
@@ -153,30 +149,30 @@
     <div class="row">
         <div class="col m4">
             <div class="row CircleRow grey lighten-2" id="BBBEEBtn">
-                <h4 class="ButtonHeader">Maximise your BBBEE</h4>
+                <h5 class="ButtonHeader">Maximise your BBBEE</h5>
             </div>
             <div class="row CircleRow" id="OpportunityBtn">
-                <h4 class="ButtonHeader">Investment Opportunity</h4>
+                <h5 class="ButtonHeader">Investment Opportunity</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="IPBtn">
-                <h4 class="ButtonHeader">Monetize your Intellectual Property</h4>
+                <h5 class="ButtonHeader">Monetize your Intellectual Property</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="ProjectsBtn">
-                <h4 class="ButtonHeader">Propella Projects</h4>
+                <h5 class="ButtonHeader">Propella Projects</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="TalkBtn">
-                <h4 class="ButtonHeader">Let's Talk</h4>
+                <h5 class="ButtonHeader">Let's Talk</h5>
             </div>
         </div>
         <div class="col m1"></div>
         <div class="col m7 left-align">
             <h4>Investment Opportunity</h4>
-            <p>Propella has carefully selected its incubatees and participants in other
+            <p style="text-align: justify">Propella has carefully selected its incubatees and participants in other
                 programmes such as Futuremakers for their commercialisation potential. </p>
-            <p>They may well be working on a product or application that will give your
+            <p style="text-align: justify">They may well be working on a product or application that will give your
                 business a competitive edge, or save you time and money on in-house
                 development costs. </p>
-            <p>They may well be working on a product or application that will give your
+            <p style="text-align: justify">They may well be working on a product or application that will give your
                 business a competitive edge, or save you time and money on in-house development costs. </p>
         </div>
     </div>
@@ -190,19 +186,19 @@
     <div class="row">
         <div class="col m4">
             <div class="row CircleRow grey lighten-2" id="BBBEEBtn">
-                <h4 class="ButtonHeader">Maximise your BBBEE</h4>
+                <h5 class="ButtonHeader">Maximise your BBBEE</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="OpportunityBtn">
-                <h4 class="ButtonHeader">Investment Opportunity</h4>
+                <h5 class="ButtonHeader">Investment Opportunity</h5>
             </div>
             <div class="row CircleRow" id="IPBtn">
-                <h4 class="ButtonHeader">Monetize your Intellectual Property</h4>
+                <h5 class="ButtonHeader">Monetize your Intellectual Property</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="ProjectsBtn">
-                <h4 class="ButtonHeader">Propella Projects</h4>
+                <h5 class="ButtonHeader">Propella Projects</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="TalkBtn">
-                <h4 class="ButtonHeader">Let's Talk</h4>
+                <h5 class="ButtonHeader">Let's Talk</h5>
             </div>
         </div>
         <div class="col m1"></div>
@@ -236,19 +232,19 @@
     <div class="row">
         <div class="col m4">
             <div class="row CircleRow grey lighten-2" id="BBBEEBtn">
-                <h4 class="ButtonHeader ">Maximise your BBBEE</h4>
+                <h5 class="ButtonHeader ">Maximise your BBBEE</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="OpportunityBtn">
-                <h4 class="ButtonHeader">Investment Opportunity</h4>
+                <h5 class="ButtonHeader">Investment Opportunity</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="IPBtn">
-                <h4 class="ButtonHeader">Monetize your Intellectual Property</h4>
+                <h5 class="ButtonHeader">Monetize your Intellectual Property</h5>
             </div>
             <div class="row CircleRow" id="ProjectsBtn">
-                <h4 class="ButtonHeader">Propella Projects</h4>
+                <h5 class="ButtonHeader">Propella Projects</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="TalkBtn">
-                <h4 class="ButtonHeader">Let's Talk</h4>
+                <h5 class="ButtonHeader">Let's Talk</h5>
             </div>
         </div>
         <div class="col m1"></div>
@@ -276,19 +272,19 @@
     <div class="row">
         <div class="col m4">
             <div class="row CircleRow grey lighten-2" id="BBBEEBtn">
-                <h4 class="ButtonHeader ">Maximise your BBBEE</h4>
+                <h5 class="ButtonHeader ">Maximise your BBBEE</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="OpportunityBtn">
-                <h4 class="ButtonHeader">Investment Opportunity</h4>
+                <h5 class="ButtonHeader">Investment Opportunity</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="IPBtn">
-                <h4 class="ButtonHeader">Monetize your Intellectual Property</h4>
+                <h5 class="ButtonHeader">Monetize your Intellectual Property</h5>
             </div>
             <div class="row CircleRow grey lighten-2" id="ProjectsBtn">
-                <h4 class="ButtonHeader">Propella Projects</h4>
+                <h5 class="ButtonHeader">Propella Projects</h5>
             </div>
             <div class="row CircleRow" id="TalkBtn">
-                <h4 class="ButtonHeader">Let's Talk</h4>
+                <h5 class="ButtonHeader">Let's Talk</h5>
             </div>
         </div>
         <div class="col m1"></div>
@@ -316,7 +312,7 @@
 
             
                 <div class="input-field">
-                    <textarea placeholder="Message" id="message"></textarea>
+                    <textarea placeholder="Message" id="message" class="materialize-textarea"></textarea>
                 </div>
 
               
@@ -327,7 +323,7 @@
 
                
                 <div>
-                    <input type="submit" value="Submit" class="btn" />
+                    <input type="submit" value="Send" class="btn" />
                 </div>
             </form>
         </div>

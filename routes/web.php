@@ -10,6 +10,26 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes(['verify' => true]);
+Route::get('/home', 'HomeController@index')->name('home');
+/**
+ * Users Controller
+ */
+Route::get('create-incubatee','IncubateeController@create');
+
+Route::resource('users','UsersController');
+Route::get('incubatees','UsersController@incubateesIndex');
+Route::get('mentors','UsersController@mentorsIndex');
+
+Route::get('get-users','UsersController@getUsers')->name('get-users');
+Route::get('get-incubatees','UsersController@getIncubatees')->name('get-incubatees');
+Route::get('get-mentors','UsersController@getMentors')->name('get-mentors');
+
+Route::get('/user/delete/{user}','UsersController@destroy');
+Route::get('account-activation/{user}','RegisterController@verifyEmail');
+Route::get('user-profile','UsersController@getUserProfile');
+Route::get('clerk-profile','UsersController@getUserProfile');
+
 
 Route::get('/Home/Incubatees','HomeController@getIncubatees');
 Route::get('/', function () {
@@ -54,9 +74,7 @@ Route::get('/Home/Partners',function(){
 Route::get('/Home/Opportunity',function(){
     return view('home.opportunity');
 });
-Route::get('/Home/SmartCity',function(){
-    return view('home.smart_city');
-});
+Route::get('/Home/SmartCity','HomeController@getSmartCity');
 
 Route::get('/Incubatees/List','HomeController@getIncubatees');
 

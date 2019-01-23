@@ -3,8 +3,12 @@
 @section('content')
 <link rel="stylesheet" type="text/css" href="/css/SmartCity1/main.css" />
 
-<div id="SmartCityImage" class="center">
-    <h2 id="SmartHeading">SMART CITY</h2>
+{{--<div id="SmartCityImage" class="center">--}}
+    {{--<center><h4 id="SmartHeading">SMART CITY</h4></center>--}}
+{{--</div>--}}
+<div class="parallax-container">
+    <h4 id="SmartHeading">SMART CITY</h4>
+    <div class="parallax"><img src="/images/SmartCityImages/plain.jpg"></div>
 </div>
 <div class="section center-align" id="AboutSection">
     <div id="AboutSectionContent">
@@ -74,22 +78,23 @@
 
 
         <div class="row">
-            {{--@foreach (var applicationProcess in Model)--}}
-                {{--{--}}
-                {{--<div class="col s12 m3">--}}
-                    {{--<div class="card hoverable RowCards">--}}
-                        {{--<div class="" style="background-color:green; height: 90px;">--}}
-                            {{--<span class="card-title"></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                            {{--<span> @applicationProcess.BusinessIdea </span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-action">--}}
-                            {{--<a href="#">B2B</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--}--}}
+            @foreach ($incubatees as $incubatee)
+                @if($incubatee->smart_city_tags =='Smart Business')
+                    <div class="col s12 m3">
+                        <div class="card hoverable RowCards">
+                            <div class="" style="background-color:deepskyblue; height: 90px;">
+                                <span class="card-title">{{$incubatee->company_name}}</span>
+                            </div>
+                            <div class="card-content">
+                                <span> {{$incubatee->elevator_pitch}} </span>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">{{$incubatee->b_type}}</a>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+            @endforeach
         </div>
     </div>
 </div>
@@ -126,23 +131,23 @@
 
 
         <div class="row">
-            {{--@foreach (var applicationProcess in Model)--}}
-                {{--{--}}
-                {{--<div class="col s12 m3">--}}
-                    {{--<div class="card hoverable RowCards">--}}
-                        {{--<div class="" style="background-color:deepskyblue; height: 90px;">--}}
-                            {{--<span class="card-title"></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                            {{--<span> @applicationProcess.BusinessIdea </span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-action">--}}
-                            {{--<a href="#">B2B</a>--}}
-
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--}--}}
+            @foreach ($incubatees as $incubatee)
+                @if($incubatee->smart_city_tags =='Smart Building')
+                <div class="col s12 m3">
+                    <div class="card hoverable RowCards">
+                        <div class="" style="background-color:deepskyblue; height: 90px;">
+                            <span class="card-title">{{$incubatee->company_name}}</span>
+                        </div>
+                        <div class="card-content">
+                            <span> {{$incubatee->elevator_pitch}} </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">{{$incubatee->b_type}}</a>
+                        </div>
+                    </div>
+                </div>
+                @endif
+                @endforeach
         </div>
     </div>
 </div>
@@ -177,22 +182,23 @@
         </div></div>
 
         <div class="row">
-            {{--@foreach (var applicationProcess in Model)--}}
-                {{--{--}}
-                {{--<div class="col s12 m3">--}}
-                    {{--<div class="card hoverable RowCards">--}}
-                        {{--<div class="" style="background-color:grey; height: 90px;">--}}
-                            {{--<span class="card-title"></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                            {{--<span> @applicationProcess.BusinessIdea </span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-action">--}}
-                            {{--<a href="#">B2B</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--}--}}
+            @foreach ($incubatees as $incubatee)
+                @if($incubatee->smart_city_tags =='Smart Community'||$incubatee->smart_city_tags =='Smart Living')
+                    <div class="col s12 m4">
+                        <div class="card hoverable RowCards" >
+                            <div class="" style="background-color:deepskyblue; height: 90px;">
+                                <span class="card-title">{{$incubatee->company_name}}</span>
+                            </div>
+                            <div class="card-content">
+                                <span> {{$incubatee->elevator_pitch}} </span>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">{{$incubatee->b_type}}</a>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+            @endforeach
         </div>
     </div>
 </div>
@@ -223,24 +229,27 @@
             </div>
         </div>
 
-        <div class="row">
-            {{--@foreach (var applicationProcess in Model)--}}
-                {{--{--}}
-                {{--<div class="col s12 m3">--}}
-                    {{--<div class="card hoverable RowCards">--}}
-                        {{--<div class="" style="background-color:deepskyblue; height: 90px;">--}}
-                            {{--<span class="card-title"></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                            {{--<span> @applicationProcess.BusinessIdea </span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-action">--}}
-                            {{--<a href="#">B2B</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--}--}}
-        </div>
+
+            <div class="row">
+                @foreach ($incubatees as $incubatee)
+                    @if($incubatee->smart_city_tags =='Smart Education')
+                        <div class="col s12 m3">
+                            <div class="card hoverable RowCards">
+                                <div class="" style="background-color:deepskyblue; height: 90px;">
+                                    <span class="card-title">{{$incubatee->company_name}}</span>
+                                </div>
+                                <div class="card-content">
+                                    <span> {{$incubatee->elevator_pitch}} </span>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">{{$incubatee->b_type}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
+            </div>
+
     </div>
 </div>
 <a style="margin-left:50%" class="black-text" href="#AboutSection"><i class="material-icons large scroll-icon">arrow_drop_up_circle</i></a>
@@ -362,26 +371,26 @@
                 </div>
             </div>
         </div>
+            <div class="row">
+                @foreach ($incubatees as $incubatee)
+                    @if($incubatee->smart_city_tags =='Smart Governance')
+                        <div class="col s12 m3">
+                            <div class="card hoverable RowCards">
+                                <div class="" style="background-color:deepskyblue; height: 90px;">
+                                    <span class="card-title">{{$incubatee->company_name}}</span>
+                                </div>
+                                <div class="card-content">
+                                    <span> {{$incubatee->elevator_pitch}} </span>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">{{$incubatee->b_type}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
+            </div>
 
-
-        <div class="row">
-            {{--@foreach (var applicationProcess in Model)--}}
-                {{--{--}}
-                {{--<div class="col s12 m3">--}}
-                    {{--<div class="card hoverable RowCards">--}}
-                        {{--<div class="" style="background-color:green; height: 90px;">--}}
-                            {{--<span class="card-title"></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                            {{--<span> @applicationProcess.BusinessIdea </span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-action">--}}
-                            {{--<a href="#">B2B</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--}--}}
-        </div>
 
     </div>
 </div>
@@ -413,27 +422,32 @@
                 </div>
             </div>
         </div>
+
         </div>
         <div class="row">
-            {{--@foreach (var applicationProcess in Model)--}}
-                {{--{--}}
-                {{--<div class="col s12 m3">--}}
-                    {{--<div class="card hoverable RowCards">--}}
-                        {{--<div class="" style="background-color:grey; height: 90px;">--}}
-                            {{--<span class="card-title"></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                            {{--<span> @applicationProcess.BusinessIdea </span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-action">--}}
-                            {{--<a href="#">B2B</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--}--}}
+            @foreach ($incubatees as $incubatee)
+                @if($incubatee->smart_city_tags =='Smart Healthcare')
+                    <div class="col s12 m3">
+                        <div class="card hoverable RowCards">
+                            <div class="" style="background-color:deepskyblue; height: 90px;">
+                                <span class="card-title">{{$incubatee->company_name}}</span>
+                            </div>
+                            <div class="card-content">
+                                <span> {{$incubatee->elevator_pitch}} </span>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">{{$incubatee->b_type}}</a>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+            @endforeach
         </div>
+
     </div>
+
 </div>
+
 <a style="margin-left:50%" class="black-text" href="#AboutSection"><i class="material-icons large scroll-icon">arrow_drop_up_circle</i></a>
 
 
@@ -489,22 +503,23 @@
         </div>
 
         <div class="row">
-            {{--@foreach (var applicationProcess in Model)--}}
-                {{--{--}}
-                {{--<div class="col s12 m3">--}}
-                    {{--<div class="card hoverable RowCards">--}}
-                        {{--<div class="" style="background-color:green; height: 90px;">--}}
-                            {{--<span class="card-title"></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                            {{--<span> @applicationProcess.BusinessIdea </span>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-action">--}}
-                            {{--<a href="#">B2B</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--}--}}
+            @foreach ($incubatees as $incubatee)
+                @if($incubatee->smart_city_tags =='Smart Mobility')
+                    <div class="col s12 m3">
+                        <div class="card hoverable RowCards">
+                            <div class="" style="background-color:deepskyblue; height: 90px;">
+                                <span class="card-title">{{$incubatee->company_name}}</span>
+                            </div>
+                            <div class="card-content">
+                                <span> {{$incubatee->elevator_pitch}} </span>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">{{$incubatee->b_type}}</a>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+            @endforeach
         </div>
     </div>
 </div>

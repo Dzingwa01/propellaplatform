@@ -4,10 +4,12 @@
 <link rel="stylesheet" type="text/css" href="/css/Programs/main.css" />
 
 <div class="section center-align" id="ProgramsSection">
+
     <div id="programsImage" class="center">
         <h4 id="ProgramsHeader">PROGRAMMES</h4>
     </div>
     <br />
+
 
     <div id="AboutSectionContent">
         <div class="row ">
@@ -48,7 +50,9 @@
             <div class="card white darken-1">
                 <div class="card-content black-text">
                     <p>
-                        <br />
+                        is referred to as Recruitment  This stage requires Propella to sensitise the market to the existence of its incubation programmes and to encourage potential entrepreneurs to submit their idea for consideration by the panel for on of the Propella programmes.
+
+
                         <br />
                     </p>
                 </div>
@@ -68,6 +72,7 @@
             <div class="card grey darken-2">
                 <div class="card-content white-text">
                     <span class="card-title">STAGE 1</span>
+                    <br />
                 </div>
             </div>
         </div>
@@ -75,8 +80,8 @@
             <div class="card white darken-1">
                 <div class="card-content black-text">
                     <p>
-                        <br />
-                        <br />
+                        is referred to as Ideation. This will typically be where the entrepreneur merely has a business idea.  When the entrepreneurs apply to the programme, the idea will not have been validated and the product will not have been developed.  The purpose of Stage 1 is to find the right jockey and to validate his/her business idea.
+
                     </p>
                 </div>
             </div>
@@ -201,6 +206,7 @@
             <div class="card blue darken-4">
                 <div class="card-content white-text">
                     <span class="card-title">STAGE 2</span>
+                    <br />
                 </div>
             </div>
         </div>
@@ -208,8 +214,7 @@
             <div class="card white darken-1">
                 <div class="card-content black-text">
                     <p>
-                        <br />
-                        <br />
+                        is referred to as Incubation.  At this stage, the entrepreneur will have completed the ideation process or entered the programme with market research that proves a well-defined business problem and solution and (or) product proof of concept in development and (or) pre-revenue stage.  The purpose of Stage 2 is to validate the business, proving it to be a viable opportunity.
                     </p>
                 </div>
             </div>
@@ -364,6 +369,7 @@
             <div class="card white darken-1">
                 <div class="card-content black-text">
                     <span class="card-title">STAGE 3</span>
+                    <br />
                 </div>
             </div>
         </div>
@@ -371,8 +377,7 @@
             <div class="card white darken-1">
                 <div class="card-content black-text">
                     <p>
-                        <br />
-                        <br />
+                        The purpose of Stage 3 is to ensure the product and business foundations are solid and that possible seed investment can flow.  The end of the acceleration journey is marked by the opportunity to apply for further commercialisation support.  Stage 3 business and product development activities will 32 weeks.  Co-working space will be made available for a maximum of 12 months.
                     </p>
                 </div>
             </div>

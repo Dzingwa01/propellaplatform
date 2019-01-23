@@ -3,9 +3,13 @@
 @section('content')
 <link rel="stylesheet" type="text/css" href="/css/Incubatees/main.css" />
 <br />
-    <div class="row" id="INCImage">
-        <h4 id="ICTHead">ICT VENTURES</h4>
-    </div>
+    {{--<div class="row" id="INCImage">--}}
+        {{--<h4 id="ICTHead">ICT VENTURES</h4>--}}
+    {{--</div>--}}
+<div class="parallax-container">
+    <h4 id="ICTHead">ICT VENTURES</h4>
+    <div class="parallax"><img id="INCImage" src="/images/5 Ventures.jpg"></div>
+</div>
     <br />
 
         <div class="row">

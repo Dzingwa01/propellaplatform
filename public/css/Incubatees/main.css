@@ -10,10 +10,10 @@
     margin-right: 8em;
 }
 #INCImage {
-    background-image: url('../../images/5 Ventures.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+    /*background-image: url('../../images/5 Ventures.jpg');*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    max-height: 100vh;
 }
 #ICTHead {
     font-size: 100px;

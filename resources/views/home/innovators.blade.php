@@ -25,6 +25,7 @@
                 <a href="Categories" class="flip-box-button modal-trigger">Ventures</a>
             </div>
 
+
             <div class="col m8" id="InnovatorsBlocksSection">
                 <div class="row">
                     <a  id="bntInnovatorOne" class="waves-effect waves-light  btn-large smartCityBtn center-align"><h6 style="padding-top:40px;">I have an idea, what's next?</h6></a>
@@ -46,219 +47,199 @@
             </div>
         </div>
     </div>
-    {{--@* </iNNOVATORS *@--}}
-
-    {{--@*<div class="section right-align" id="InnovatorsThirdSection">--}}
-        {{--<h3 id="InnovatorsThirdSectionHeader">I have An IDEA</h3>--}}
-
-    {{--</div>--}}
-    {{--<div class="section center-align" id="InnovatorsFifthSection">--}}
-        {{--<div class="center-align">--}}
-            {{--<p>Congrat's you're in the right place, Propella can help you to take your product or IT--}}
-                {{--solution to market.--}}
-            {{--</p>--}}
-            {{--<br />--}}
-            {{--<p>If your innovation can improve the lives of people in cities around the world,--}}
-                {{--we'd like to engage further but first we need to know a bit more.</p>--}}
-        {{--</div>--}}
-        {{--<div row>--}}
-            {{--<a asp-action="SmartEnviroment" id="bntInnovator1" class="waves-effect waves-light blue btn-large smartCityBtn"><h6>Frequently Asked Questions</h6></a>--}}
-            {{--<a asp-action="SmartGovernance" id="bntInnovator1" class="waves-effect waves-light grey btn-large smartCityBtn"><h6>How do I Apply?</h6></a>--}}
-            {{--<a asp-action="SmartEnviroment" id="bntInnovator1" class="waves-effect waves-light blue btn-large smartCityBtn"><h6>Frequently Asked Questions</h6></a>--}}
-        {{--</div>--}}
-    {{--</div>*@--}}
 
 
-        <div class="section" id="InnovatorsFourthSection">
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-            <link type="text/css" rel="stylesheet" href="/css/Idea/IdeaMain.css" />
+    <div class="section" id="InnovatorsFourthSection">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/css/Idea/IdeaMain.css" />
 
 
-            <!--Section: Top-->
-            <div class="parralax-container">
-                <div class="parralax">
-                    <section class="section center-align" id="topSection">
-                        <div id="primaryOverlay">
-                            <div class="showcase container">
-                                <h2>So you have an Idea?</h2>
-                                <p class="flow-text">Now is the time to take action!</p>
-                                <br />
-                                <a class="white-text" href="#InitialParagraph"><i class="material-icons medium scroll-icon">arrow_drop_down_circle</i></a>
-                            </div>
+        <!--Section: Top-->
+        <div class="parralax-container">
+            <div class="parralax">
+                <section class="section center-align" id="topSection">
+                    <div id="primaryOverlay">
+                        <div class="showcase container">
+                            <h2>So you have an Idea?</h2>
+                            <p class="flow-text">Now is the time to take action!</p>
+                            <br />
+                            <a class="white-text" href="#InitialParagraph"><i class="material-icons medium scroll-icon">arrow_drop_down_circle</i></a>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
             </div>
-
-            <!--Section: Body-->
-            <!--Initial Paragraph-->
-            <section class="section center-align scrollspy" id="InitialParagraph">
-                <div class="container-fluid" id="InitialParagraphText">
-                    <h4>Congrats! You're in the right place!</h4>
-                    <p>Propella can help you to take your product or IT solution to the market.</p>
-                    <br />
-                    <p>
-                        If your innovation can improve the lives of people living in cities around the world,
-                        we'd like to engage further but first we need to know a bit more...
-                    </p>
-                </div>
-                <p></p>
-            </section>
-
-            <!--Second Section-->
-            <section class="section center-align" id="secondSection">
-                <div class="row">
-                    <div class="col m2" id="firstRowFirstDiv">
-                        <h4>What type of idea is it?</h4>
-                    </div>
-                    <div class="col m5" id="firstRowSecondDiv">
-                        <h4 id="ICTHeader">Information Technologies</h4>
-                        <a class="btn btn-large red" id="ICTBtn">ICT</a>
-                    </div>
-                    <div class="col m5" id="firstRowThirdDiv">
-                        <h4 id="INDHeader">Industrial</h4>
-                        <button class="btn btn-large red" id="INDBtn">Industrial</button>
-                    </div>
-                    <div class="col m3">
-                    </div>
-                </div>
-            </section>
-
-            <!--Industrial First Row-->
-            <div id="IndustrialFirstRow" hidden class="center-align">
-                <div class="row">
-                    <div class="col m3" id="secondRowFirstDiv">
-                        <h4 id="questionOneHeader">How advanced is the idea?</h4>
-                    </div>
-                    <div class="col m3" id="secondRowSecondDiv">
-                        <h4 id="industrialIdeaHeader">I have an idea</h4>
-                        <a class="btn btn-sm" id="industrialIdeaBtn">This One</a>
-                    </div>
-                    <div class="col m3" id="secondRowThirdDiv">
-                        <h4 id="industrialDesignHeader">I have a design</h4>
-                        <a class="btn btn-sm" id="industrialDesignBtn">This One</a>
-                    </div>
-                    <div class="col m3" id="secondRowFourthDiv">
-                        <h4 id="industrialPrototypeHeader">I have a prototype</h4>
-                        <a class="btn btn-sm" id="industrialPrototypeBtn">This One</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Industrial Idea Row-->
-            <div id="industrialIdeaRow" hidden>
-                <div class="row">
-                    <div class="col m3" id="industrialIdeaRowFirstDiv">
-                        <h4>Just an idea</h4>
-                    </div>
-                    <div class="col m9" id="industrialIdeaRowSecondDiv">
-                        <h4>Please keep up the great work!</h4>
-                        <h6>Contact us as soon as you have a prototype.</h6>
-                    </div>
-                </div>
-            </div>
-
-            <!--Industrial Design Row-->
-            <div id="industrialDesignRow" hidden>
-                <div class="row">
-                    <div class="col m3" id="industrialDesignRowFirstDiv">
-                        <h4>Design</h4>
-                    </div>
-                    <div class="col m9" id="industrialDesignRowSecondDiv">
-                        <h4>This is great news!</h4>
-                        <h6>Please give us a call.</h6>
-                    </div>
-                </div>
-            </div>
-
-            <!--Industrial Prototype Row-->
-            <div id="industrialPrototypeRow" hidden>
-                <div class="row">
-                    <div class="col m3" id="industrialPrototypeRowFirstDiv">
-                        <h4>Prototype</h4>
-                    </div>
-                    <div class="col m9" id="industrialPrototypeRowSecondDiv">
-                        <h4>Awesome!</h4>
-                        <h6>Apply here.</h6>
-                        <a class="btn btn-sm" href="/ApplicationProcess/ApplicationFormOne">Apply</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--ICT First Row-->
-            <div id="ICTFirstRow" hidden class="center-align">
-                <div class="row center-align">
-                    <div class="col m3" id="thirdRowFirstDiv">
-                        <h4 id="questionOneHeader">How advanced is the idea?</h4>
-                    </div>
-                    <div class="col m3" id="thirdRowSecondDiv">
-                        <h4 id="ictIdeaHeader">I have a Tech idea</h4>
-                        <a class="btn btn-sm" id="ictIdeaBtn">This One</a>
-                    </div>
-                    <div class="col m3" id="thirdRowThirdDiv">
-                        <h4 id="ictDesignHeader">I have a Wire Frame</h4>
-                        <a class="btn btn-sm" id="ictWireFrameBtn">This One</a>
-                    </div>
-                    <div class="col m3" id="thirdRowFourthDiv">
-                        <h4 id="ictPrototypeHeader">I have a functioning app, website, platform or device.</h4>
-                        <a class="btn btn-sm" id="ictApplicationBtn">This One</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--ICT Idea Row-->
-            <div id="ictIdeaRow" hidden>
-                <div class="row">
-                    <div class="col m3" id="ictIdeaRowFirstDiv">
-                        <h4> I have a Tech idea </h4>
-                    </div>
-                    <div class="col m9" id="ictIdeaRowSecondDiv">
-                        <h4>We host FutureMakers. Futured by BCX and you could qualify.</h4>
-                        <p> Click below to apply. </p>
-                        <a href="/ApplicationProcess/ApplicationFormOne">Apply</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--ICT Wire Frame Row-->
-            <div id="ictWireFrameRow" hidden>
-                <div class="row">
-                    <div class="col m3" id="ictWireFrameRowFirstDiv">
-                        <h4> I have a Wire Frame </h4>
-                    </div>
-                    <div class="col m9" id="ictWireFrameRowSecondDiv">
-                        <h4>We host FutureMakers. Futured by BCX and you could qualify.</h4>
-                        <p> Click below to apply. </p>
-                        <a href="/ApplicationProcess/ApplicationFormOne">Apply</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--ICT Prototype Row-->
-            <div id="ictApplicationRow" hidden>
-                <div class="row">
-                    <div class="col m3" id="ictApplicationRowFirstDiv">
-                        <h4> I have a functioning app, website, platform or device. </h4>
-                    </div>
-                    <div class="col m9" id="ictApplicationRowSecondDiv">
-                        <h4>We host FutureMakers. Futured by BCX and you could qualify.</h4>
-                        <p> Click below to apply. </p>
-                        <a href="/ApplicationProcess/ApplicationFormOne">Apply</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Industrial Cancel Button-->
-            <div class="center-align" hidden id="industrialCancelSection">
-                <a class="btn" id="industrialCancelBtn">Not Sure?</a>
-            </div>
-
-            <!--ICT Cancel Button-->
-            <div class="center-align" hidden id="ictCancelSection">
-                <a class="btn" id="ictCancelBtn">Not Sure?</a>
-            </div>
-
         </div>
+
+        <!--Section: Body-->
+        <!--Initial Paragraph-->
+        <section class="section center-align scrollspy" id="InitialParagraph">
+            <div class="container-fluid" id="InitialParagraphText">
+                <h4>Congrats! You're in the right place!</h4>
+                <p>Propella can help you to take your product or IT solution to the market.</p>
+                <br />
+                <p>
+                    If your innovation can improve the lives of people living in cities around the world,
+                    we'd like to engage further but first we need to know a bit more...
+                </p>
+            </div>
+            <p></p>
+        </section>
+        <br />
+        <br />
+        <!--Second Section-->
+        <section class="section center-align" id="secondSection">
+            <div class="row">
+                <div class="col m2" id="firstRowFirstDiv">
+                    <h4>What type of idea is it?</h4>
+                </div>
+                <div class="col m5" id="firstRowSecondDiv">
+                    <h4 id="ICTHeader">Information Technologies</h4>
+                    <a class="btn btn-large red" id="ICTBtn">ICT</a>
+                </div>
+                <div class="col m5" id="firstRowThirdDiv">
+                    <h4 id="INDHeader">Industrial</h4>
+                    <button class="btn btn-large red" id="INDBtn">Industrial</button>
+                </div>
+                <div class="col m3">
+                </div>
+            </div>
+        </section>
+
+        <!--Industrial First Row-->
+        <div id="IndustrialFirstRow" hidden class="center-align">
+            <div class="row">
+                <div class="col m3" id="secondRowFirstDiv">
+                    <h4 id="questionOneHeader">How advanced is the idea?</h4>
+                </div>
+                <div class="col m3" id="secondRowSecondDiv">
+                    <h4 id="industrialIdeaHeader">I have an idea</h4>
+                    <a class="btn btn-sm" id="industrialIdeaBtn">This One</a>
+                </div>
+                <div class="col m3" id="secondRowThirdDiv">
+                    <h4 id="industrialDesignHeader">I have a design</h4>
+                    <a class="btn btn-sm" id="industrialDesignBtn">This One</a>
+                </div>
+                <div class="col m3" id="secondRowFourthDiv">
+                    <h4 id="industrialPrototypeHeader">I have a prototype</h4>
+                    <a class="btn btn-sm" id="industrialPrototypeBtn">This One</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Industrial Idea Row-->
+        <div id="industrialIdeaRow" hidden>
+            <div class="row">
+                <div class="col m3" id="industrialIdeaRowFirstDiv">
+                    <h4>Just an idea</h4>
+                </div>
+                <div class="col m9" id="industrialIdeaRowSecondDiv">
+                    <h4>Please keep up the great work!</h4>
+                    <h6>Contact us as soon as you have a prototype.</h6>
+                </div>
+            </div>
+        </div>
+
+        <!--Industrial Design Row-->
+        <div id="industrialDesignRow" hidden>
+            <div class="row">
+                <div class="col m3" id="industrialDesignRowFirstDiv">
+                    <h4>Design</h4>
+                </div>
+                <div class="col m9" id="industrialDesignRowSecondDiv">
+                    <h4>This is great news!</h4>
+                    <h6>Please give us a call.</h6>
+                </div>
+            </div>
+        </div>
+
+        <!--Industrial Prototype Row-->
+        <div id="industrialPrototypeRow" hidden>
+            <div class="row">
+                <div class="col m3" id="industrialPrototypeRowFirstDiv">
+                    <h4>Prototype</h4>
+                </div>
+                <div class="col m9" id="industrialPrototypeRowSecondDiv">
+                    <h4>Awesome!</h4>
+                    <h6>Apply here.</h6>
+                    <a class="btn btn-sm" href="/ApplicationProcess/ApplicationFormOne">Apply</a>
+                </div>
+            </div>
+        </div>
+
+        <!--ICT First Row-->
+        <div id="ICTFirstRow" hidden class="center-align">
+            <div class="row center-align">
+                <div class="col m3" id="thirdRowFirstDiv">
+                    <h4 id="questionOneHeader">How advanced is the idea?</h4>
+                </div>
+                <div class="col m3" id="thirdRowSecondDiv">
+                    <h4 id="ictIdeaHeader">I have a Tech idea</h4>
+                    <a class="btn btn-sm" id="ictIdeaBtn">This One</a>
+                </div>
+                <div class="col m3" id="thirdRowThirdDiv">
+                    <h4 id="ictDesignHeader">I have a Wire Frame</h4>
+                    <a class="btn btn-sm" id="ictWireFrameBtn">This One</a>
+                </div>
+                <div class="col m3" id="thirdRowFourthDiv">
+                    <h4 id="ictPrototypeHeader">I have a functioning app, website, platform or device.</h4>
+                    <a class="btn btn-sm" id="ictApplicationBtn">This One</a>
+                </div>
+            </div>
+        </div>
+
+        <!--ICT Idea Row-->
+        <div id="ictIdeaRow" hidden>
+            <div class="row">
+                <div class="col m3" id="ictIdeaRowFirstDiv">
+                    <h4> I have a Tech idea </h4>
+                </div>
+                <div class="col m9" id="ictIdeaRowSecondDiv">
+                    <h4>We host FutureMakers. Futured by BCX and you could qualify.</h4>
+                    <p> Click below to apply. </p>
+                    <a href="/ApplicationProcess/ApplicationFormOne">Apply</a>
+                </div>
+            </div>
+        </div>
+
+        <!--ICT Wire Frame Row-->
+        <div id="ictWireFrameRow" hidden>
+            <div class="row">
+                <div class="col m3" id="ictWireFrameRowFirstDiv">
+                    <h4> I have a Wire Frame </h4>
+                </div>
+                <div class="col m9" id="ictWireFrameRowSecondDiv">
+                    <h4>We host FutureMakers. Futured by BCX and you could qualify.</h4>
+                    <p> Click below to apply. </p>
+                    <a href="/ApplicationProcess/ApplicationFormOne">Apply</a>
+                </div>
+            </div>
+        </div>
+
+        <!--ICT Prototype Row-->
+        <div id="ictApplicationRow" hidden>
+            <div class="row">
+                <div class="col m3" id="ictApplicationRowFirstDiv">
+                    <h4> I have a functioning app, website, platform or device. </h4>
+                </div>
+                <div class="col m9" id="ictApplicationRowSecondDiv">
+                    <h4>We host FutureMakers. Futured by BCX and you could qualify.</h4>
+                    <p> Click below to apply. </p>
+                    <a href="/ApplicationProcess/ApplicationFormOne">Apply</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Industrial Cancel Button-->
+        <div class="center-align" hidden id="industrialCancelSection">
+            <a class="btn" id="industrialCancelBtn">Not Sure?</a>
+        </div>
+
+        <!--ICT Cancel Button-->
+        <div class="center-align" hidden id="ictCancelSection">
+            <a class="btn" id="ictCancelBtn">Not Sure?</a>
+        </div>
+
+    </div>
 
     <div class="section" id="Top">
 
@@ -295,106 +276,106 @@
         </div>
     </div>
 
-        <div class="section right-align" id="InnovatorsSixthSection">
-            <h2 id="InnovatorsSixthSectionHeader">Programmes</h2>
-        </div>
-        <div class="section center-align" id="InnovatorSeventhSection">
-            <div row>
-                <a id="bntInnovator1" class="waves-effect waves-light btn-large smartCityBtn">
-                    <h6 style="padding-top:100px; font-size:20px;">
-                        Which programme would<br />
-                        you like to know more about?
-                    </h6>
-                </a>
-                <a id="bntInnovatorTwwo" class="waves-effect waves-light white btn-large smartCityBtn"><h6 style="padding-top:100px; font-size:20px;">FutureMakers<br />Futured by BCX<br />(ICT)</h6></a>
-                <a id="bntInnovator3" class="waves-effect waves-light btn-large smartCityBtn"><h6 style="padding-top:100px; font-size:20px;">Isuzu Industrial Hub</h6></a>
-            </div>
-
-        </div>
-        <div class="section center-align" id="Innovator8Section">
-            <div row>
-                <a href="#" id="bntInnovator4" class="waves-effect waves-light btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px;">FutureMakers Futured by BCX (ICT)</h6>
-                </a>
-                <a href="#" id="bntInnovator5" class="waves-effect waves-light grey btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px;">Tell me more about the programme<br />Futured by BCX<br />(ICT)</h6>
-                </a>
-                <a href="#" id="bntInnovator6" class="waves-effect waves-light  btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px;">What content is covered?</h6>
-                </a>
-
-                <a href="/Home/Incubatees" id="bntInnovator7" class="waves-effect waves-light white btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px; color:black;">Who is currently on the programme?</h6>
-                </a>
-            </div>
-        </div>
-        <div class="section center-align" id="Innovator9Section">
-            <div row>
-                <a href="#" id="bntInnovator8" class="waves-effect waves-light  btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px;">Isuzu Industrial Hub</h6>
-                </a>
-                <a href="#" id="bntInnovator9" class="waves-effect waves-light grey btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px;">Tell me more about the programme<br />Futured by BCX<br />(ICT)</h6>
-                </a>
-                <a href="#" id="bntInnovator10" class="waves-effect waves-light  btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px;">What content is covered?</h6>
-                </a>
-                <a href="#" id="bntInnovator11" class="waves-effect waves-light white btn-large smartCityBtn">
-                    <h6 style="padding-top:70px; font-size:20px; color:black;">Who is currently on the programme?</h6>
-                </a>
-            </div>
-            <div class="section center-align" id="InnovatorParaSection">
-                <p>
-                    Futuremakers, Futured by BCX is an intensive programme &quot;from concept to market&quot;
-                    process run by Propella for IT innovators.
-                </p>
-                <p>
-                    Your ticket to the programme is a great idea – coupled with the determination and
-                    ability to see it through to commercialisation.
-                </p>
-                <p>
-                    It could be an app, a service, or an IT application that no-one else has thought of yet.
-                    But, it does have to be something that would fit into the operations of Smart City. Our
-                    vision is to improve the lives of urban dwellers using technology.
-                </p>
-                <p>
-                    Applications open every few months, so you need to keep visiting the site to see
-                    when then next round has opened.
-                </p>
-                <p>
-                    The Propella team reviews the applications and selects the top 40 to present and sell
-                    their idea to a panel.
-                </p>
-                <p>
-                    Approximately 25 businesses will be invited on an eight week &quot;Pitch-Deck Journey&quot;
-                    where we prepare you to pitch your idea to a panel of sponsors, funders and
-                    potential clients.
-                </p>
-                <p>
-                    There is no cost to participate, but there are also no free lunches – you will be
-                    expected to invest at least eight hours a week in Propella workshops, and even
-                    longer doing your research and groundwork.
-                </p>
-                <p>
-                    If you’ve done your homework and the panel is convinced your idea has potential for
-                    commercialisation then you may be selected as one of the 10 entrepreneurs for the
-                    exciting and life-changing Stage 2 incubation journey, which is another three months
-                    of preparation for success.
-                </p>
-                <p>
-                    Crack the not at the end of Stage 2 to enter a deep dive with your own Project
-                    Manager and Mentor as they journey with you to commercialisation in Stage 3.
-                </p>
-                <p>
-                    This is the chance you&#39;ve been looking for to make your big idea a reality.
-                </p>
-                <p>
-                    Be sure to bookmark this page and to return regularly to apply for the next
-                    Futuremakers adventure.
-                </p>
-            </div>
+    <div class="section right-align" id="InnovatorsSixthSection">
+        <h2 id="InnovatorsSixthSectionHeader">Programmes</h2>
+    </div>
+    <div class="section center-align" id="InnovatorSeventhSection">
+        <div row>
+            <a id="bntInnovator1" class="waves-effect waves-light btn-large smartCityBtn">
+                <h6 style="padding-top:100px; font-size:20px;">
+                    Which programme would<br />
+                    you like to know more about?
+                </h6>
+            </a>
+            <a id="bntInnovatorTwwo" class="waves-effect waves-light white btn-large smartCityBtn"><h6 style="padding-top:100px; font-size:20px;">FutureMakers<br />Futured by BCX<br />(ICT)</h6></a>
+            <a id="bntInnovator3" class="waves-effect waves-light btn-large smartCityBtn"><h6 style="padding-top:100px; font-size:20px;">Isuzu Industrial Hub</h6></a>
         </div>
 
+    </div>
+    <div class="section center-align" id="Innovator8Section">
+        <div row>
+            <a href="#" id="bntInnovator4" class="waves-effect waves-light btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px;">FutureMakers Futured by BCX (ICT)</h6>
+            </a>
+            <a href="#" id="bntInnovator5" class="waves-effect waves-light grey btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px;">Tell me more about the programme<br />Futured by BCX<br />(ICT)</h6>
+            </a>
+            <a href="#" id="bntInnovator6" class="waves-effect waves-light  btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px;">What content is covered?</h6>
+            </a>
+
+            <a href="/Home/Incubatees" id="bntInnovator7" class="waves-effect waves-light white btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px; color:black;">Who is currently on the programme?</h6>
+            </a>
+        </div>
+    </div>
+    <div class="section center-align" id="Innovator9Section">
+        <div row>
+            <a href="#" id="bntInnovator8" class="waves-effect waves-light  btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px;">Isuzu Industrial Hub</h6>
+            </a>
+            <a href="#" id="bntInnovator9" class="waves-effect waves-light grey btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px;">Tell me more about the programme<br />Futured by BCX<br />(ICT)</h6>
+            </a>
+            <a href="#" id="bntInnovator10" class="waves-effect waves-light  btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px;">What content is covered?</h6>
+            </a>
+            <a href="#" id="bntInnovator11" class="waves-effect waves-light white btn-large smartCityBtn">
+                <h6 style="padding-top:70px; font-size:20px; color:black;">Who is currently on the programme?</h6>
+            </a>
+        </div>
+        <div class="section center-align" id="InnovatorParaSection">
+            <p>
+                Futuremakers, Futured by BCX is an intensive programme &quot;from concept to market&quot;
+                process run by Propella for IT innovators.
+            </p>
+            <p>
+                Your ticket to the programme is a great idea – coupled with the determination and
+                ability to see it through to commercialisation.
+            </p>
+            <p>
+                It could be an app, a service, or an IT application that no-one else has thought of yet.
+                But, it does have to be something that would fit into the operations of Smart City. Our
+                vision is to improve the lives of urban dwellers using technology.
+            </p>
+            <p>
+                Applications open every few months, so you need to keep visiting the site to see
+                when then next round has opened.
+            </p>
+            <p>
+                The Propella team reviews the applications and selects the top 40 to present and sell
+                their idea to a panel.
+            </p>
+            <p>
+                Approximately 25 businesses will be invited on an eight week &quot;Pitch-Deck Journey&quot;
+                where we prepare you to pitch your idea to a panel of sponsors, funders and
+                potential clients.
+            </p>
+            <p>
+                There is no cost to participate, but there are also no free lunches – you will be
+                expected to invest at least eight hours a week in Propella workshops, and even
+                longer doing your research and groundwork.
+            </p>
+            <p>
+                If you’ve done your homework and the panel is convinced your idea has potential for
+                commercialisation then you may be selected as one of the 10 entrepreneurs for the
+                exciting and life-changing Stage 2 incubation journey, which is another three months
+                of preparation for success.
+            </p>
+            <p>
+                Crack the not at the end of Stage 2 to enter a deep dive with your own Project
+                Manager and Mentor as they journey with you to commercialisation in Stage 3.
+            </p>
+            <p>
+                This is the chance you&#39;ve been looking for to make your big idea a reality.
+            </p>
+            <p>
+                Be sure to bookmark this page and to return regularly to apply for the next
+                Futuremakers adventure.
+            </p>
+        </div>
+    </div>
+    
     <div class="section" id="TopImage">
     </div>
     <div class="section hidden">
@@ -481,6 +462,7 @@
             </div>
         </div>
     </div>
+   
         <div class="section right-align" id="Innovator10Section">
             <h2 id="Innovators10SectionHeader">Funding Options</h2>
         </div>
@@ -613,7 +595,7 @@
                         <b>Please read the information and criteria below and contact</b><br />
                         mara@propellaincubator.co.za <b>
                             for an application form or download the <br />
-                            application form below if you believe you meet the requirements.
+                            appliaction form below if you believe you meet the requirements.
                         </b>
                         </p>
                     </div>
@@ -625,7 +607,7 @@
                 </div>
             </div>
         </div>
-
+      
     <div class="section" id="TopImage1">
 
     </div>
@@ -650,8 +632,9 @@
             <div class="col m7 center-align">
                 <div class="row">
                     <h5>There is a process, but it’s a quick and easy one. Take a look at the journey below.  </h5>
-                    <img src="/images/Innovators/Application/Process.jpg" style="height:500px; width:750px;" />
+                    <img src="/images/Innovators/Appliaction/Process.jpg" style="height:500px; width:750px;" />
                 </div>
+
             </div>
         </div>
     </div>
@@ -731,7 +714,9 @@
             </div>
         </div>
     </div>
-      <div id="QuizImage">
+    
+
+    <div id="QuizImage">
 
     </div>
 
@@ -868,6 +853,11 @@
                     </div>
                 </div>
             </div>
+
+
+
+
+
             <div class="col m3 QuestionTwelveDiv" hidden>
                 <p id="HighParagraph" hidden>That’s amazing, it’s time to have a chat.  Please tell us more (click here)</p>
                 <p id="AverageParagraph" hidden>Promising, but you may need to refine your ideas and approach a little more before sharing your idea with us. </p>
