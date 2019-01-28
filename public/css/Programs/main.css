@@ -1,90 +1,268 @@
 ﻿body {
-    
-}
-#programsImage {
-    background: url('../../images/2.3 Programmes.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 900px;
-    position: relative;
-    -webkit-filter: grayscale(100%);
 }
 
+@media screen and (max-width: 767px) {
+    .topimage {
+        background: url('/images/Programmes Images/2.3 Programmes.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
 
-.programsLinkBtn {
-    width: 200px;
-    height: 200px; 
-}
+    }
 
-.programsbtn {
-    width: 200px;
-    height: 150px;
-}
-.programs-overlay {
-    background: rgbA(128, 128, 128, 0.6);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-#ProgramsSection {
-    background: rgbA(128, 128, 128, 0.6);
-    background-position: center;
-    background-size: cover;
-}
+    #Stage0Block {
+        background: rgba(0,121,52,1);
+    }
 
-#ProgramsHeader {
-    font-size: 80px;
-    font-family: Arial;
-    color: white;
-    background-size: cover;
-    height: 100vh;
-    padding-top: 360px;
-    
-}
+    #Stage1Block {
+        background: #454242;
+    }
 
-#Zero {
-    background-image: url('/images/stge0.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-#One {
-    background-image: url('/images/One.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-#Two {
-    background-image: url('/images/twotwo.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-#Three {
-    background-image: url('/images/Two.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-#Program1 {
-    margin-top: 50px;
-    font-size: 37px;
-    font-family: DINPro;
-    color: rgba(0, 47, 95, 1);
-}
-.ProgramP1 {
-    color: rgba(0, 47, 95, 1);
-    font-family: DINPro;
-    font-size: 20px;
-}
+    #Stage2Block {
+        background: #454242;
+    }
 
-.RowMargins {
-    margin-left: 8em;
-    margin-right: 8em;
+    #Stage3Block {
+        background: rgba(0,47,95,1);
+    }
+
+    .secondimage {
+        background: url('/images/Programmes Images/stge0.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+
+    }
+
+    #ButtonStage0 {
+        background: rgba(0,121,52,1);
+    }
+
+    .thirdimage {
+        background: url('/images/Programmes Images/One.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+
+    #ButtonStage0 {
+        background: rgba(0,121,52,1);
+        width: 110%;
+        height: 100%;
+    }
+
+    #ButtonStage1 {
+        background: rgba(0,121,52,1);
+        width: 110%;
+        height: 100%;
+    }
+
+    #ButtonStage2 {
+        background: #4800ff;
+        width: 110%;
+        height: 100%;
+    }
+
+    #ButtonStage3 {
+        background: #808080;
+        width: 110%;
+        height: 100%;
+    }
+
+    .fourthimage {
+        background: url('/images/Programmes Images/twotwo.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+
+    .lastimage {
+        background: url('/images/Programmes Images/Two.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+    #ProgrammesAboutDesktop {
+        display: none;
+    }
+    #ProgramsSecondImageDesk{
+        display:none;
+    }
+    #Stage0RowDesk {
+        display: none;
+    }
+    #ProgramsThirdImageDesk{
+        display:none;
+    }
+
+    #Stage1RowDesk {
+        display: none;
+    }
+    #Stage1MoreInfo {
+        display: none;
+    }
+    #ProgramsFourthImageDesk{
+        display:none;
+    }
+    #Stage2Row {
+        display:none;
+    }
+    #Stage2InformationDesk {
+        display: none;
+    }
+    #ProgramsLastImageDesk {
+        display: none;
+    }
+    #Stage3Row{
+        display:none;
+    }
+    #Stage3InformationDesk{
+        display:none;
+    }
+
+
+
 }
+@media screen and (min-width: 767px) {
 
+    #ProgrammesAboutMobile {
+        display:none;
+    }
+    #ButtonStage0{
+        display:none;
+    }
+    #ProgramsSecondImage {
+        display: none;
+    }
+    #ProgramsSecond{
+        display:none;
+    }
+    #Stage0InfoMob{
+        display:none;
+    }
+    #ProgramsThirdImage{
+        display:none;
+    }
+    #Stage1InforMob {
+        display: none;
+    }
+    #Stage1Information{
+        display:none;
+    }
+    #Stage2Information {
+        display: none;
+    }
 
+    #ButtonStage1 {
+        display: none;
+    }
+    #ProgramsFourthImage{
+        display:none;
+    }
+    #Stage2InforMobile {
+        display: none;
+    }
+    #Stage2Category{
+        display:none;
+    }
+    #Stage2CategoryCust{
+        display:none;
+    }
+    #Stage2CategoryPro{
+        display:none;
+    }
+    #Stage2CategoryEntre{
+        display:none;
+    }
+    .topimage {
+        background: url('/images/Programmes Images/2.3 Programmes.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+        -webkit-filter: grayscale(100%);
+    }
+
+    .topimage:hover {
+        -webkit-filter: grayscale(100%);
+    }
+    #Stage0Block {
+        background: rgba(0,121,52,1);
+    }
+
+    #Stage1Block {
+        background: #454242;
+    }
+
+    #Stage2Block {
+        background: #454242;
+    }
+
+    #Stage3Block {
+        background: rgba(0,47,95,1);
+    }
+    .secondimage {
+        background: url('/images/Programmes Images/stge0.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+
+    }
+    .secondimage:hover {
+        -webkit-filter: grayscale(100%);
+    }
+    #ButtonStage0Desk {
+        background: rgba(0,121,52,1);
+        width: 110%;
+        height: 100%;
+    }
+    .thirdimage {
+        background: url('/images/Programmes Images/One.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+    .thirdimage:hover {
+        -webkit-filter: grayscale(100%);
+    }
+    #ButtonStage1 {
+        background: rgba(0,121,52,1);
+        width: 110%;
+        height: 100%;
+    }
+
+    .fourthimage {
+        background: url('/images/Programmes Images/twotwo.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+    .lastimage {
+        background: url('/images/Programmes Images/Two.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+    #ProgramsLastImage{
+        display:none;
+    }
+    #Stage3InforMob{
+        display:none;
+    }
+    #Stage0Block{
+        height:15vh;
+    }
+    #Stage1Block {
+        height: 15vh;
+    }
+    #Stage2Block {
+        height: 15vh;
+    }
+    #Stage3Block {
+        height: 15vh;
+    }
+    #Stage3InformationMob{
+        display:none;
+    }
+
+}
 

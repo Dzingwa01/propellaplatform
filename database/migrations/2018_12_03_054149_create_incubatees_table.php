@@ -33,10 +33,12 @@ class CreateIncubateesTable extends Migration
             $table->string('profile_picture_url')->nullable();
             $table->string('stage')->nullable();
             $table->string('cohort')->nullable();
-//            $table->string('ownership')->nullable();
+            $table->string('product_platform')->nullable();
             $table->string('registration_number')->nullable();
             $table->timestamps();
             $table->softDeletes();
+
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

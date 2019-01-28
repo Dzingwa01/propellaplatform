@@ -1,71 +1,137 @@
-﻿@media only screen and (min-width: 993px) {
-    nav a.sidenav-trigger {
-        display: none !important;
+﻿*********************SITE********************
+    /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\
+    for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/******************************************************************
+******************************************************************/
+
+/*STANDARD CSS  FOR ALL PAGES*/
+@media screen and (max-width: 767px) {
+
+    .standard-section-with-margins {
+        margin-left: 2em;
+        margin-right: 2em;
     }
 
-    /*nav ul a {*/
-        /*color: black !important;*/
-    /*}*/
+    .standard-top-section {
+        height: 75vh;
+    }
 
-    /*nav {*/
-        /*height: 6em !important;*/
-    /*}*/
+    .standard-section-headers {
+        font-size: 2em;
+        font-family: Arial;
+        margin-top: 50vh;
+        margin-left: 2vh;
+        font-weight:bolder;
+    }
+
+    .standard-header {
+        font-size: 2em;
+        font-family: Arial;
+    }
+
+    .standard-paragraphs {
+        font-size: 14px;
+        font-family: Arial;
+    }
+
+    .standard-blocks {
+        height: 8em;
+        width: 8em;
+        color: white;
+    }
+
+    .standard-block-headers {
+        font-size: 1.5rem;
+        margin-top: 2.5em;
+    }
 }
-@media only screen and (max-width: 768px){
-    #AboutTopSectionHeader, #AboutSecondSectionHeaderThree, #AboutSecondSectionHeaderTwo, #AboutSecondSectionHeaderOne,BoxDivHeader {
-        font-size: 32px!important;
+
+@media screen and (min-width: 767px) {
+    .standard-section-with-margins {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .standard-top-section {
+        height: 75vh;
+    }
+
+    .standard-section-headers {
+        font-size: 3em;
+        font-family: Arial;
+        margin-top: 40vh;
+        padding-left: 60%;
         font-weight: bolder;
     }
-    #AboutTopSectionHeader{
-        margin-top: 60vh;
-    }
-    .row .col{
-    float:none;
-    }
-    .BoxDivHeader{
-        font-size: 28px;
+
+    .standard-header {
+        font-size: 2em;
+        font-family: Arial;
+
     }
 
+    .standard-paragraphs {
+        font-size: 14px;
+        font-family: Arial;
+    }
 
-}
-/*.row .col{*/
-    /*float:none;*/
-/*}*/
-nav a.sidenav-trigger {
-    color: black !important;
-}
+    .standard-blocks {
+        height: 16em;
+        width: 16em;
+        color: white;
+    }
 
-nav ul a {
-    color: black !important;
-}
+    .standard-block-headers {
+        font-size: 2rem;
+        margin-top: 4em;
+    }
 
-nav {
-    height: 6em !important;
-}
-.card-title{
-    text-align:center!important;
-}
-/*.header {
-    padding: 10px 16px;
-    background: #0094ff;
-    color: #f1f1f1;
-}*/
-ul {
-    list-style-type: none;
-}
-nav ul a {
-    color: black !important;
-}
-@media screen and (min-width: 620px){
-    .login-form {
-        margin: auto;
-        width: 400px;
-        margin-top: 5%;
+    .standard-left-buttons {
+        height: 4em;
+        width: 100%;
+        color: white;
+        border-radius: 15px;
+    }
+
+    .standard-left-button-headers {
+        font-size: 1.5rem;
+        margin-top: 1em;
+        margin-left:2em;
     }
 }
-
-
-
-
-
-

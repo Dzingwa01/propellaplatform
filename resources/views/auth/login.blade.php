@@ -13,11 +13,13 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="login-form">
+        <div class="login-form" class="center" style=" margin:auto;
+        width: 400px;
+        margin-top:5%;">
             <form class="col s12 card" method="post">
                 @csrf
                 <div class="center">
-                    <img style="width: 60%" src="http://thepropella.co.za/images/Demo/logos/Propella-Logo.png"/></a>
+                  <a href="/">  <img style="width: 60%" src="http://thepropella.co.za/images/Demo/logos/Propella-Logo.png"/></a>
                 </div>
                 <div>
                     <h5 class="center-align">Log In</h5>

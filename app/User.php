@@ -24,6 +24,9 @@ class User extends Authenticatable  implements MustVerifyEmail
         'name','surname', 'email','contact_number','password'
     ];
 
+    public function start_up(){
+        return $this->hasOne(Incubatee::class);
+    }
     /**
      * The attributes that should be hidden for arrays.
      *

@@ -6,9 +6,17 @@
     {{--<div class="row" id="INCImage">--}}
         {{--<h4 id="ICTHead">ICT VENTURES</h4>--}}
     {{--</div>--}}
-<div class="parallax-container">
-    <h4 id="ICTHead">ICT VENTURES</h4>
-    <div class="parallax"><img id="INCImage" src="/images/5 Ventures.jpg"></div>
+{{--<div class="parallax-container">--}}
+    {{--<h4 id="ICTHead">ICT VENTURES</h4>--}}
+    {{--<div class="parallax"><img id="INCImage" src="/images/5 Ventures.jpg"></div>--}}
+{{--</div>--}}
+<div class="row">
+    <div class="parallax-container" id="ictTopSection">
+        <div class="parallax">
+            <img src="/images/About/aeroplane-aircraft-airplane-638698.jpg" id="topImageICT" />
+        </div>
+        <h1 class="standard-section-headers" style="color:white">ICT Ventures</h1>
+    </div>
 </div>
     <br />
 
@@ -19,13 +27,13 @@
                         <div class="circle">
                             <div class="card-content black-text " style="height: 350px;">
                                 <div class="user-view" align="left">
-                                    <a href="#user"><img class="fullscreen" style="height: 100px;width: 250px;" src="/images/Propella_Logo.jpg"></a>
+                                    <a href="#user"><img class="fullscreen" style="height: 100px;width: 250px;" src="{{'/storage/'.$incubatee->logo_url}}"></a>
                                 </div>
                                 <br />
-                                <h6 class=""> {{$incubatee->first_name . ' ' . $incubatee->last_name}}</h6>
-                                <h6 class=""> {{$incubatee->company_name}} </h6>
-                                <h6 class=""> {{$incubatee->email}} </h6>
-                                <h6 class=""> {{$incubatee->contact_number}} </h6>
+                                <h6 class=""> {{$incubatee->user->name . ' ' . $incubatee->user->surname}}</h6>
+                                <h6 class=""> {{$incubatee->user->startup_name}} </h6>
+                                <h6 class=""> {{$incubatee->user->email}} </h6>
+                                <h6 class=""> {{$incubatee->user->contact_number}} </h6>
                                 {{--<div id="u136_text" class="text ">--}}
                                     {{--<p>{{$incubatee->short_bio}}</p>--}}
                                 {{--</div>--}}
@@ -39,5 +47,14 @@
                 </div>
                 @endforeach
         </div>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script>
 
+    $(document).ready(function () {
+//        $('.parallax').parallax();
+    });
+</script>
     @endsection

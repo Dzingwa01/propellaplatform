@@ -16,11 +16,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="register-form">
+        <div class="register-form" style=" margin:auto;
+        width: 400px;
+        margin-top:5%;">
             <form class="col s12 card" method="POST" action="/register">
                 @csrf
                 <div class="center">
-                    <img style="width: 40%" src="http://thepropella.co.za/images/Demo/logos/Propella-Logo.png"/></a>
+                    <a href="/"><img style="width: 40%" src="http://thepropella.co.za/images/Demo/logos/Propella-Logo.png"/></a>
                 </div>
                 <div>
                     <h5 class="center-align">Register</h5>

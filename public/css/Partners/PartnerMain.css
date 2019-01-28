@@ -1,224 +1,284 @@
-﻿body {
-    
+﻿@media screen and (max-width: 767px) {
+    #PartnerTopSection {
+        color: white;
+    }
+
+    #PartnerTopSectionImage {
+        width: 400%;
+        height: 150%;
+        -webkit-filter: grayscale(100%);
+    }
+
+    #PartnerSecondSectionDesktop {
+        display: none;
+    }
+
+    .MaximiseBlock {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
+
+    .InvestmentBlock {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
+
+    .IPBlock {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
+
+    .ProjectsBlock {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
+    .TalkBlock {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
+
+    .EmptyBlock {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
+
+    #PartnerThirdSection {
+        color: white;
+    }
+
+    #PartnerThirdSectionImage {
+        width: 250%;
+        height: 150%;
+    }
+
+    #PartnerFourthSectionDesktop{
+        display: none;
+    }
+
+    #PartnerFifthSection {
+        color: white;
+    }
+
+    #PartnerFifthSectionImage {
+        width: 250%;
+        height: 150%;
+    }
+
+    #PartnerFifthSectionDesktop{
+        display: none;
+    }
+
+    #PartnerSixthSection {
+        color: white;
+    }
+
+    #PartnerSixthSectionImage {
+        width: 250%;
+        height: 150%;
+    }
+
+    #PartnerSixthSectionDesktop {
+        display: none;
+    }
+
+    #PartnerSeventhSection {
+        color: white;
+    }
+
+    #PartnerSeventhSectionImage {
+        width: 250%;
+        height: 150%;
+    }
+
+    #PartnerSeventhSectionDesktop {
+        display: none;
+    }
+
+    #PartnerEigthSection {
+        color: white;
+    }
+
+    #PartnerEigthSectionImage {
+        width: 250%;
+        height: 150%;
+    }
+
+    #PartnerEigthSectionDesktop {
+        display: none;
+    }
 }
 
-html{
-    font-family: Arial;
-}
+@media screen and (min-width: 767px) {
+    #PartnerTopSection {
+        color: white;
+    }
 
-#PartnerTopSection {
-    background: url('/images/Partners/3 Partners.jpg');
-    background-position:center;
-    background-size: cover;
-    height: 100vh;
-    color: white;
-    -webkit-filter: grayscale(100%);
-}
+    #PartnerTopSectionImage {
+        width: 100%;
+        height: 120%;
+        -webkit-filter: grayscale(100%);
+    }
 
-#PartnerTopSectionHeader {
-    margin-top: 250px;
-    font-family: DINPro;
-    font-size: 100px;
-}
+    #PartnerSecondSectionMobile{
+        display: none;
+    }
 
-#PartnerSecondSection {
-    background: rgba(154, 155, 156, 0.5);
-    height: 600px;
-}
+    .MaximiseBlock {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
 
-#PartnerSecondSectionRow {
-    margin-top: 20px;
-    margin-left: 8em;
-    margin-right: 8em;
-}
+    .InvestmentBlock {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
 
-#PartnerSecondSectionRightColFirstRow {
-    height: 200px;
-}
+    .IPBlock {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
 
-#PartnerSecondSectionRightColSecondRow {
-    height: 200px;
-}
+    .ProjectsBlock {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
 
-#MaximiseBBBEEDiv {
-    background: rgba(0, 121, 52, 1);
-    background-position: center;
-    background-size: cover;
-    height: 250px;
-    width: 250px;
-}
+    .TalkBlock {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
 
-#InvestmentOpportunityDiv {
-    height: 250px;
-    width: 250px;
-    background: rgba(0, 47, 95, 1);
-    background-position: center;
-    background-size: cover;
-}
+    .EmptyBlock {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+        border-color: white;
+    }
 
-#MonetizeIPDiv {
-    height: 250px;
-    width: 250px;
-    background: #ffffff;
-    background-position: center;
-    background-size: cover;
-}
+    #PartnerThirdSection {
+        color: white;
+        -webkit-filter: grayscale(100%);
+    }
 
-#PropellaProjectDiv {
-    height: 250px;
-    width: 250px;
-    background: #ffffff;
-    background-position: center;
-    background-size: cover;
-}
-
-#LetsTalkDiv {
-    background: rgba(0, 121, 52, 1);
-    background-position: center;
-    background-size: cover;
-    height: 250px;
-    width: 250px;
-}
-
-#EmptyDiv {
-    height: 250px;
-    width: 250px;
-    background: rgba(0, 47, 95, 1);
-    background-position: center;
-    background-size: cover;
-}
-
-.BoxDivHeader {
-    margin-top: 100px;
-    color: #9A9B9C;
-    font-family: Arial;
-}
-
-#PartnerThirdSection {
-    background: url('/images/Partners/3.1 Maximise BBBEE.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 75vh;
-    -webkit-filter: grayscale(100%);
-}
-
-#PartnerThirdSection:hover{
-    -webkit-filter: grayscale(0%);
-}
-
-#PartnerFourthSection {
-    margin-left: 8em;
-    margin-right: 8em;
-}
-
-#PartnerFifthSection{
-    background-image: url('/images/Partners/3.2 Investor Opp.jpg');
-    background-position:center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 75vh;
-    -webkit-filter: grayscale(100%);
-}
-
-#PartnerFifthSection:hover{
-    -webkit-filter: grayscale(0%);
-}
-
-#PartnerSixthSection{
-    margin-left: 8em;
-    margin-right: 8em;
-}
-
-#PartnerSeventhSection {
-    background: url('/images/Partners/3.4 Monetise IP.jpg');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 75vh;
-    -webkit-filter: grayscale(100%);
-}
-
-#PartnerSeventhSection:hover {
-    -webkit-filter: grayscale(0%);
-}
-
-#PartnerEigthSection {
-    margin-left: 8em;
-    margin-right: 8em;
-}
-
-#PartnerNinthSection {
-    background: url('/images/Partners/3.3 Propella Proj.jpg');
-    background-position: center;
-    background-size:cover;
-    height: 75vh;
-    -webkit-filter: grayscale(100%);
-}
-
-    #PartnerNinthSection:hover {
+    #PartnerThirdSection:hover {
         -webkit-filter: grayscale(0%);
     }
 
-#PartnerTenthSection {
-    margin-left: 8em;
-    margin-right: 8em;
+    #PartnerThirdSectionImage {
+        width: 100%;
+        height: 120%;
+    }
+
+    #PartnerFourthSectionMobile {
+        display: none;
+    }
+
+    #PartnerFifthSection {
+        color: white;
+        -webkit-filter: grayscale(100%);
+    }
+
+    #PartnerFifthSection:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #PartnerFifthSectionImage {
+        width: 100%;
+        height: 120%;
+    }
+
+    #PartnerFifthSectionMobile {
+        display: none;
+    }
+
+    #PartnerSixthSection {
+        color: white;
+        -webkit-filter: grayscale(100%);
+    }
+
+    #PartnerSixthSection:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #PartnerSixthSectionImage {
+        width: 100%;
+        height: 120%;
+    }
+
+    #PartnerSixthSectionMobile {
+        display: none;
+    }
+
+    #PartnerSeventhSection {
+        color: white;
+        -webkit-filter: grayscale(100%);
+    }
+
+    #PartnerSeventhSection:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #PartnerSeventhSectionImage {
+        width: 100%;
+        height: 120%;
+    }
+
+    #PartnerSeventhSectionMobile {
+        display: none;
+    }
+
+    #PartnerEigthSection {
+        color: white;
+        -webkit-filter: grayscale(100%);
+    }
+
+    #PartnerEigthSection:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #PartnerEigthSectionImage {
+        width: 100%;
+        height: 120%;
+    }
+
+    #PartnerEigthSectionMobile {
+        display: none;
+    }
 }
 
-#PartnerEleventhSection {
-    background: url('/images/Partners/3.5 Talk.jpg');
-    background-position:top;
-    background-size: cover;
-    height: 75vh;
-    -webkit-filter: grayscale(100%);
-}
 
-#PartnerEleventhSection:hover {
-    -webkit-filter: grayscale(0%);
-}
 
-#PartnerTwelvethSection {
-    margin-left: 8em;
-    margin-right: 8em;
-}
-
-.CircleRow {
-    border-radius: 50px;
-}
-
-#BBBEEBtn {
-    background: rgba(0, 121, 52, 1);
-    color: #ffffff;
-    font-family: DINPro;
-}
-
-#OpportunityBtn {
-    background: rgba(0, 47, 95, 1);
-    color: #ffffff;
-    font-family: DINPro;
-}
-
-#IPBtn {
-    background: rgba(0, 121, 52, 1);
-    color: #ffffff;
-    font-family: DINPro;
-}
-
-#ProjectsBtn {
-    background: rgba(0, 47, 95, 1);
-    color: #ffffff;
-    font-family: DINPro;
-}
-
-#TalkBtn {
-    background: rgba(0, 121, 52, 1);
-    color: #ffffff;
-    font-family: DINPro;
-}
-
-.ButtonHeader {
-    margin-left: 2em;
-}
-
-#ContactUsForm {
-    margin-top: 40px;
-}

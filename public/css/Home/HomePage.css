@@ -1,0 +1,400 @@
+
+/**********************Desktop*******************/
+
+@media screen and (min-width: 787px){
+    #myCarousel {
+        display: none;
+    }
+
+    /* Innovators */
+    .Innovators {
+        background: url('/images/Home Page images/Innovation.png');
+        background-size: cover;
+        background-position: top;
+        height: 88vh;
+        position: relative;
+        -webkit-filter: grayscale(100%);
+    }
+
+    .Innovators:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #InnovateTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 75px;
+        bottom: 45px;
+        cursor: pointer;
+    }
+
+    #InnovateTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 70px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+
+    /* Partners */
+    .Partner {
+        background: url('/images/Home Page images/Partner.png');
+        background-size: cover;
+        background-position: top;
+        height: 88vh;
+        position: relative;
+        -webkit-filter: grayscale(100%);
+    }
+
+    .Partner:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #PartnerTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 50px;
+        bottom: 45px;
+        cursor: pointer;
+    }
+
+    #PartnerTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 56px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+
+    /* FutureMakers */
+    .FutureMakers {
+        background: url('/images/Home Page images/Future makers.png');
+        background-size: cover;
+        background-position: top;
+        height: 88vh;
+        position: relative;
+        -webkit-filter: grayscale(100%);
+    }
+
+    .FutureMakers:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+
+    #FutureMakersTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 27px;
+        bottom: 45px;
+        cursor: pointer;
+    }
+
+    #FutureMakersTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 10px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+
+    /* Industrial */
+    .Industrial {
+        background: url('/images/Home Page images/Industrial.png');
+        background-size: cover;
+        background-position: top;
+        height: 88vh;
+        position: relative;
+        -webkit-filter: grayscale(100%);
+    }
+
+    .Industrial:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #IndustrialTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 80px;
+        bottom: 45px;
+        cursor: pointer;
+    }
+
+    #IndustrialTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 58px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+
+    /* SmartCity */
+    .SmartCity {
+        background: url('/images/Home Page images/Smart city psd.png');
+        background-size: cover;
+        background-position: top;
+        height: 88vh;
+        position: relative;
+        -webkit-filter: grayscale(100%);
+    }
+
+    .SmartCity:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #SmartCityTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 78px;
+        bottom: 45px;
+        cursor: pointer;
+    }
+
+    #SmartCityTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 83px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+
+    /* Apply */
+    .Apply {
+        background: url('/images/Home Page images/Apply.png');
+        background-position: center;
+        background-size: cover;
+        height: 88vh;
+        position: relative;
+        -webkit-filter: grayscale(100%);
+    }
+
+    .Apply:hover {
+        -webkit-filter: grayscale(0%);
+    }
+
+    #ApplyTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 100px;
+        bottom: 45px;
+        cursor: pointer;
+    }
+
+    #ApplyTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 50px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+}
+
+/**********************Mobile********************/
+@media screen and (max-width: 767px) {
+    #myCarousel {
+        height: 84vh;
+    }
+
+    #Tags {
+        display: none;
+    }
+
+    /* Innovators */
+    .Innovators {
+        background: url('/images/Home Page images/Innovation.png');
+        background-size: cover;
+        background-position: center;
+        height: 84vh;
+        position: relative;
+    }
+
+    #InnovateTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: X-large;
+        position: absolute;
+        right: 115px;
+        top: 120px;
+        cursor: pointer;
+    }
+
+    #InnovateTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 110px;
+        top: 143px;
+        cursor: pointer;
+    }
+
+    /* Partners */
+    .Partner {
+        background: url('/images/Home Page images/Partner.png');
+        background-size: cover;
+        background-position: center;
+        height: 84vh;
+        position: relative;
+    }
+
+    #PartnerTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 85px;
+        top: 120px;
+        cursor: pointer;
+    }
+
+    #PartnerTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 90px;
+        top: 143px;
+        cursor: pointer;
+    }
+
+    /* FutureMakers */
+    .FutureMakers {
+        background: url('/images/Home Page images/Future makers.png');
+        background-size: cover;
+        background-position: center;
+        height: 84vh;
+    }
+
+    #FutureMakersTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 70px;
+        top: 120px;
+        cursor: pointer;
+    }
+
+    #FutureMakersTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 50px;
+        top: 143px;
+        cursor: pointer;
+    }
+
+    /* Industrial */
+    .Industrial {
+        background: url('/images/Home Page images/Industrial.png');
+        background-size: cover;
+        background-position: center;
+        height: 84vh;
+    }
+
+    #IndustrialTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 125px;
+        top: 120px;
+        cursor: pointer;
+    }
+
+    #IndustrialTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 105px;
+        top: 143px;
+        cursor: pointer;
+    }
+
+    /* SmartCity */
+    .SmartCity {
+        background: url('/images/Home Page images/Smart city psd.png');
+        background-size: cover;
+        background-position: center;
+        height: 84vh;
+    }
+
+    #SmartCityTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 117px;
+        top: 120px;
+        cursor: pointer;
+    }
+
+    #SmartCityTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 124px;
+        top: 143px;
+        cursor: pointer;
+    }
+
+    /* Apply */
+    .Apply {
+        background: url('/images/Home Page images/Apply.png');
+        background-position: center;
+        background-size: cover;
+        height: 84vh;
+    }
+
+    #ApplyTxt {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: x-large;
+        position: absolute;
+        right: 145px;
+        top: 120px;
+        cursor: pointer;
+    }
+
+    #ApplyTxt2 {
+        text-decoration-style: solid;
+        color: #ffffff;
+        font-size: medium;
+        position: absolute;
+        right: 97px;
+        top: 148px;
+        cursor: pointer;
+    }
+
+    .carousel {
+        height: 100%;
+    }
+}
+
+

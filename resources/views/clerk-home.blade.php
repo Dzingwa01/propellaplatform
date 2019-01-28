@@ -53,7 +53,7 @@
                     </table>
                 </div>
                 <div class="card-action">
-                    <a href="#">View Training Material</a>
+                    <a href="#">View Incubatees</a>
                 </div>
             </div>
         </div>

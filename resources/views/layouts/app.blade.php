@@ -43,7 +43,7 @@
                         <li><a href="/"><i class="material-icons left">home</i>Home</a></li>
                         <li><a href="/Home/About"><i class="material-icons left">lightbulb_outline</i>About</a></li>
                         <li><a href="/Home/Partners"><i class="material-icons left">email</i>Partner</a></li>
-                        <li><a href="/Home/Calendar"><i class="material-icons left">assignment</i>Calendar</a></li>
+                        {{--<li><a href="/Home/Calendar"><i class="material-icons left">assignment</i>Calendar</a></li>--}}
                         <li><a href="/Home/Innovators"><i class="material-icons left">bubble_chart</i>Innovators</a></li>
                         <li><a href="/Home/Categories"><i class="material-icons left">people</i>Current Ventures</a></li>
                         <li><a href="/Home/Programs"><i class="material-icons left">find_in_page</i>Programs </a></li>
@@ -62,7 +62,7 @@
             <li><a href="/"><i class="material-icons left">home</i>Home</a></li>
             <li><a href="/Home/About"><i class="material-icons left">lightbulb_outline</i>About</a></li>
             <li><a href="/Home/Partners"><i class="material-icons left">email</i>Partner</a></li>
-            <li><a href="/Home/Calendar"><i class="material-icons left">assignment</i>Calendar</a></li>
+            {{--<li><a href="/Home/Calendar"><i class="material-icons left">assignment</i>Calendar</a></li>--}}
             <li><a href="/Home/Innovators"><i class="material-icons left">bubble_chart</i>Innovators</a></li>
             <li><a href="/Home/Categories"><i class="material-icons left">people</i>Current Ventures</a></li>
             <li><a href="/Home/Programs"><i class="material-icons left">find_in_page</i>Programs </a></li>
@@ -81,10 +81,12 @@
 
 <script>
     $(document).ready(function () {
-        M.AutoInit();
+//        M.AutoInit();
+        $('.parallax').parallax();
         $('.dropdown-trigger-cus').dropdown();
         $('.dropdown-trigger-c').dropdown();
         $('select').formSelect();
+        $('.carousel').carousel();
 
     });
 </script>

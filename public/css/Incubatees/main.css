@@ -1,28 +1,38 @@
 ﻿body {
 }
-#Incubatee {
-    background: rgbA(128, 128, 128, 0.6);
-    background-position: center;
-    background-size: cover;
+@media screen and (max-width: 767px) {
+    #topImageICT {
+        width: 100%;
+        height: 120%;
+    }
+    #ictTopSection {
+        color: white;
+    }
+
+    #desktopProfile {
+        display: none;
+    }
+    .card {
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 25px;
+    }
 }
-#INCMargin {
-    margin-left: 8em;
-    margin-right: 8em;
-}
-#INCImage {
-    /*background-image: url('../../images/5 Ventures.jpg');*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
-    max-height: 100vh;
-}
-#ICTHead {
-    font-size: 100px;
-    font-family: Arial;
-    color: white;
-    background-size: cover;
-    height: 100vh;
-    padding-top: 350px;
-}
-.card {
-    border-radius: 20px;
+@media screen and (min-width: 767px) {
+    #topImageICT {
+        width: 100%;
+        height: 150%;
+    }
+
+    #ictTopSection {
+        color: white;
+    }
+    #mobileProfile {
+        display: none;
+    }
+    .card {
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 25px;
+    }
 }

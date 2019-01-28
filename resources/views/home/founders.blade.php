@@ -7,7 +7,7 @@
 
 <div class="section row" id="FounderTopSection">
     <div class="col m3 center-align" style="height: 200px" id="">
-        <img style="margin-top:4em;max-width: 90%;max-height: 60%" src="{{!is_null($incubatee->logo_url)?$incubatee->logo_url:'/images/ProfilePictures/NoProfilePic.jpg'}}" style="max-width: 100%"/>
+        <img style="margin-top:4em;max-width: 90%;max-height: 60%" src="{{!is_null($incubatee->logo_url)?'/storage/'.$incubatee->logo_url:'/images/ProfilePictures/NoProfilePic.jpg'}}" style="max-width: 100%"/>
         <br/>
         <br/>
         <div class="chip">
@@ -21,12 +21,12 @@
         </div>
     </div>
     <div class="col m3 left-align" style="height: 200px" id="FounderTopSectionName">
-        <h4>Propella Business Incubator</h4>
+        <img src="http://thepropella.co.za/images/Demo/logos/Propella-Logo.png" />
     </div>
 
     <div class="col m6 left-align" style="height: 200px" id="FounderTopSectionElevatorPitch">
         <h5>Elevator Pitch</h5>
-        <p>
+        <p style="text-align: justify;">
            {{$incubatee->elevator_pitch}}
         </p>
     </div>
@@ -35,13 +35,13 @@
     <div id="FounderSecondSectionContent">
         <div class="row">
             <div class="col m3 center-align" id="">
-                <img style="margin:auto;width: 180px;max-height: 180px" src="/images/ProfilePictures/NoProfilePic.jpg"/>
+                <img style="margin:auto;width: 180px;max-height: 180px" src="{{'/storage/'.$incubatee->profile_picture_url}}"/>
             </div>
 
             <div class="col m5 center-align" id="FounderAboutMe">
                 <div class="row">
                     <h5>About Me</h5>
-                    <p>
+                    <p style="text-align: justify;">
                         {{$incubatee->short_bio}}
                     </p>
                 </div>
@@ -55,7 +55,7 @@
                             <h6>First Name: </h6>
                         </div>
                         <div class="col s6">
-                            <h6>{{$incubatee->first_name}}</h6>
+                            <h6>{{$incubatee->user->name}}</h6>
                         </div>
                     </div>
                     <div class="row">
@@ -63,7 +63,7 @@
                             <h6>Last Name: </h6>
                         </div>
                         <div class="col s6">
-                            <h6>{{$incubatee->last_name}}</h6>
+                            <h6>{{$incubatee->user->surname}}</h6>
                         </div>
                     </div>
                     <div class="row">
@@ -71,7 +71,7 @@
                             <h6>Email   :</h6>
                         </div>
                         <div class="col s6">
-                            <h6>{{$incubatee->email}}</h6>
+                            <h6>{{$incubatee->user->email}}</h6>
                         </div>
                     </div>
                     <div class="row center-align">
@@ -98,7 +98,7 @@
     <div class="col m6">
         <div class="row" id="VentureProfileRow">
             <h4>Venture Profile</h4>
-            <p>
+            <p style="text-align: justify;">
                 {{$incubatee->business_information}}
             </p>
 
@@ -204,4 +204,7 @@
         </div>
     </div>
 </div>
+    <script>
+
+    </script>
     @endsection

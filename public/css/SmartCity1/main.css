@@ -1,192 +1,369 @@
-﻿body {
+﻿@media screen and (max-width: 767px) {
+    /*Top Image*/
+    #SmartCityImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    /*Nine Buttons*/
+    .BusinessButton {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .BuildingButton {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .CommunityButton {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .EducationButton {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .EnviromentButton {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .GovernanceButton {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .HealthCareButton {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .InfrastrucureButton {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+    .MobilityButton {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+
+    .NjeButton {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
+
+    #BusinessRow {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #Business {
+        width: 250px;
+    }
+
+    #Build {
+        width: 400px;
+    }
+
+    #BuildImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #Building {
+        width: 250px;
+    }
+
+    #BuildDb {
+        width: 400px;
+    }
+
+    #CommuImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #Community {
+        width: 250px;
+    }
+
+    #SmartEducation {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+    #SmartEducationBlock {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    #Edu {
+        width: 400px;
+    }
+
+    #EnviroImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #SmartEnvinron {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    #GovImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #Goven {
+        width: 250px;
+
+    }
+
+    #HealthImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #Health {
+        width: 250px;
+    }
+
+    #InfraImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #Infrastructure {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    #MobiImage {
+        width: 400%;
+        height: 150%;
+        position: relative;
+    }
+
+    #SmartMob{
+        margin-left: 40px;
+    }
+
+    #Desktopprogrampage {
+        display: none;
+    }
 }
-    
 
 
-#SmartCityImage {
-    /*background: url('../../images/SmartCityImages/plain.jpg');*/
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    width: 1920px;
-    position: relative;
-    margin-top: 0px;
-    /*margin-top: 50px;*/
-}
-#SmartCityImage:hover {
-    -webkit-filter: grayscale(0%);
-}
+/*DESkTOP VIEW STYLING*/
+@media screen and (min-width: 767px) {
+    #Mobileprogrampage {
+        display: none;
+    }
 
-.smartCityBtn {
-    width: 250px;
-    height: 150px;
-}
-.smartcity-overlay{
-    background:rgbA(128, 128, 128, 0.6);
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    overflow:hidden;
-}
+    #SmartCityImage {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
 
-#SmartCityImage2 {
-    background-image: url('/images/business.jpeg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
+    /*Nine Buttons*/
+    .BusinessButton {
+        background: #454242;
 
-#SmartCityImage2:hover {
-    -webkit-filter: grayscale(0%);
-}
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
-#BuildImage:hover {
-    -webkit-filter: grayscale(0%);
-}
-#MobiImage:hover{
-    -webkit-filter: grayscale(0%);
-}
-#CommuImage:hover {
-    -webkit-filter: grayscale(0%);
-}
+    .BuildingButton {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
-#SmartEduImage:hover{
-    -webkit-filter: grayscale(0%);
-}
+    .CommunityButton {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
-#AboutSection {
-    background: rgbA(128, 128, 128, 0.6);
-    background-position: center;
-    background-size: cover;
-}
+    .EducationButton {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
-#SmartHeading {
-    font-size: 80px;
-    font-family: Arial;
-    color: #ffffff;
-    background-size: cover;
-    height: 100vh;
-    padding-top:350px;
-    text-align: center;
-}
-#SmartH1 {
-    margin-top: 50px;
-    font-size: 37px;
-    font-family: DINPro;
-    color: rgba(0, 47, 95, 1);
-}
-.SmartP1 {
-    color: rgba(0, 47, 95, 1);
-    font-family: DINPro;
-    font-size: 20px;
-}
-#SmartH2 {
-    margin-top: 50px;
-    font-size: 37px;
-    font-family: DINPro;
-    color: rgba(0, 47, 95, 1);
-}
-.SmartP2 {
-    color: rgba(0, 47, 95, 1);
-    font-family: DINPro;
-    font-size: 20px;
-}
-#SmartH3 {
-    margin-top: 50px;
-    font-size: 37px;
-    font-family: DINPro;
-    color: rgba(0, 47, 95, 1);
-}
-.SmartP3 {
-    color: rgba(0, 47, 95, 1);
-    font-family: DINPro;
-    font-size: 20px;
-}
+    .EnviromentButton {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
-#SmartEduImage {
-    background-image: url('/images/SmartCityImages/education.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-#EnviroImage {
-    background-image: url('/images/SmartCityImages/environment.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
+    .GovernanceButton {
+        background: rgba(0, 121, 52, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
-#CommuImage {
-    background-image: url('/images/SmartCityImages/community.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-#GovImage {
-    background-image: url('/images/SmartCityImages/governance 2.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-}
-#HealthImage {
-    background-image: url('/images/SmartCityImages/health 1.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-}
-#InfraImage {
-    background-image: url('/images/SmartCityImages/infrastructure.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-     -webkit-filter: grayscale(100%);
-}
-#MobiImage {
-    background-image: url('/images/SmartCityImages/mobility.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-}
-#BuildImage {
-    background-image: url('/images/SmartCityImages/building.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-}
+    .HealthCareButton {
+        background: #454242;
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
+    .InfrastrucureButton {
+        background: rgba(0, 121, 52, 1);
 
-.RowMargins {
-    margin-left: 8em;
-    margin-right: 8em;
-}
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
+    .MobilityButton {
+        background: rgba(0, 47, 95, 1);
+        background-position: center;
+        background-size: cover;
+        border: solid;
+    }
 
-.RowCards {
-    height: 400px;
-    /*width: 300px;*/
-    overflow: hidden;
-}
-#BusinessButton{
-    background-color:rgbA(0, 47, 95,1);
-}
-#CommunityButton {
-    background-color: rgbA(0,121,52,1);
-}
-#GovernanceButton {
-    background-color: rgbA(0, 47, 95,1);
-}
-#EnviromentButton {
-    background-color: rgbA(0,121,52,1);
-}
-#HealthCareButton {
-    background-color: rgbA(0, 47, 95,1);
-}
-#MobilityButton {
-    background-color: rgbA(0,121,52,1);
+    #BusinessRow {
+        width: 100%;
+        height: 500px;
+    }
+
+    #BusinessSection{
+        padding-left: 5%;
+    }
+
+    #Bus {
+        width: 200px;
+    }
+
+    #BuildImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #BuildingRow {
+        padding-left: 5%;
+    }
+
+    #Buildn {
+        width: 200px;
+    }
+
+    #CommuImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #Community {
+        padding-left: 5%;
+    }
+
+    #Commune {
+        width: 200px;
+    }
+
+    #SmartEduImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #EducateC {
+        width: 200px;
+    }
+
+    #Educate {
+        padding-left: 7%;
+    }
+
+    #EnviroImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #GovImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #Goven {
+        width: 200px;
+    }
+
+    #GovernanceRow {
+        padding-left: 5%;
+    }
+
+    #HealthImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #HealthS {
+        padding-left: 5%;
+    }
+
+    #HealthDiv {
+        width: 200px;
+    }
+
+    #InfraImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #InfrastructureRow {
+        padding-left: 5%;
+    }
+
+    #infra {
+        width: 200px;
+    }
+
+    #MobiImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    #MobilityRow {
+        padding-left: 5%;
+    }
+
+    #Mob {
+        width: 200px;
+    }
 }

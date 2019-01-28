@@ -68,10 +68,10 @@ class UsersController extends Controller
             $query->where('name','incubatee');
         })->get();
 
-        return Datatables::of($users->load('roles'))->addColumn('action', function ($user) {
-            $re = '/user/' . $user->id;
-            $sh = '/user/show/' . $user->id;
-            $del = '/user/delete/' . $user->id;
+        return Datatables::of($users->load('roles','start_up'))->addColumn('action', function ($user) {
+            $re = '/incubatee/' . $user->id;
+            $sh = '/incubatee/show/' . $user->id;
+            $del = '/incubatee/delete/' . $user->start_up->id;
             return '<a href=' . $re . ' title="Edit Incubatee"><i class="material-icons">create</i></a><a href=' . $del . ' title="Delete Incubatee" style="color:red"><i class="material-icons">delete_forever</i></a>';
         })
             ->make(true);

@@ -16,6 +16,10 @@ Route::get('/home', 'HomeController@index')->name('home');
  * Users Controller
  */
 Route::get('create-incubatee','IncubateeController@create');
+Route::post('incubatee-store','IncubateeController@store')->name('incubatee.store');
+Route::post('incubatee-update/{incubatee}','IncubateeController@update');
+
+Route::get('/incubatee/delete/{incubatee}','IncubateeController@destroy');
 
 Route::resource('users','UsersController');
 Route::get('incubatees','UsersController@incubateesIndex');
@@ -32,6 +36,9 @@ Route::get('clerk-profile','UsersController@getUserProfile');
 
 
 Route::get('/Home/Incubatees','HomeController@getIncubatees');
+Route::get('/Home/ICTVentures','HomeController@getIncubatees');
+Route::get('/Home/INDVentures','HomeController@getIndustrial');
+
 Route::get('/', function () {
 //    dd("Hello");
     return view('welcome');
